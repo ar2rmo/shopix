@@ -1,0 +1,91 @@
+#dir_list{
+	width:100px;
+	white-space:nowrap;
+}
+
+#dir_list ul{
+	list-style-type:none;
+	padding-left:15px;
+}
+
+#dir_list li.cur_dir{
+	background-color:gray;
+}
+
+#dir_list a{
+	font-family:Arial;
+	font-size:12px;
+	color:blue;
+}
+/* #dirlist div{
+	border-bottom:1px solid gray;
+	color:blue;
+	text-decoration:underline;
+	cursor:pointer;
+}
+#dirlist div.current_dir{
+	background-color:#aaaaaa;
+} */
+
+#files_content{
+	font-family:Arial;
+}
+
+img{
+	border:none;
+}
+
+table.preview_icon_table td{
+	text-align:center;
+	vertical-align:bottom;
+}
+
+
+
+img.cur_file{
+	border:3px solid #555555;
+}
+
+table.preview_icon_table a{
+	cursor:pointer;
+	color:blue;
+	font-weight:bold;
+}
+
+img.currentfloat{
+	border: 1px solid #555555;
+}
+
+div.file_info{
+	font-size:10px;
+	color:#777777;
+}
+
+#message a{
+	font-family:Arial;
+}
+
+a.button_ok, a.button_ok:visited { color: #FFF; font-size: 12px; padding: 5px 10px 5px 30px; font-family:Arial;
+	background: url(/resources/adm/img/button_ok.png) no-repeat 5px 50% #87B500; border: 1px solid #FFF; text-decoration: none;
+	font-weight:normal;	}
+a.button_ok:hover { background: url(/resources/adm/img/button_ok.png) no-repeat 5px 50% #759D00; text-decoration: none; }
+
+a.button_cancel, a.button_cancel:visited { color: #FFF; font-size: 12px; padding: 5px 10px 5px 30px; font-family:Arial;
+	background: url(/resources/adm/img/button_cancel.png) no-repeat 5px 50% #87B500; border: 1px solid #FFF; text-decoration: none; 
+	font-weight:normal;	}
+a.button_cancel:hover { background: url(/resources/adm/img/button_cancel.png) no-repeat 5px 50% #759D00; text-decoration: none; }
+
+a.button_reload, a.button_reload:visited { color: #FFF; font-size: 12px; padding: 5px 10px 5px 30px; font-family:Arial;
+	background: url(/resources/adm/img/button_reload.png) no-repeat 5px 50% #87B500; border: 1px solid #FFF; text-decoration: none; 
+	font-weight:normal;	}
+a.button_reload:hover { background: url(/resources/adm/img/button_reload.png) no-repeat 5px 50% #759D00; text-decoration: none; }
+
+a.save, a.save:visited { color: #FFF; font-size: 12px; padding: 5px 10px 5px 30px; font-family:Arial;
+	background: url(/resources/adm/img/save.png) no-repeat 5px 50% #87B500; border: 1px solid #FFF; text-decoration: none; 
+	font-weight:normal;	}
+a.save:hover { background: url(/resources/adm/img/save.png) no-repeat 5px 50% #759D00; text-decoration: none; }
+/* table.filelist td,
+table.imglist td{
+	text-align:center;
+	vertical-align:bottom;
+} */

@@ -1,0 +1,15 @@
+/webroot/callme/
+/webroot/kcfinder/
+/webroot/libraries/3rdparty/
+/webroot/data/
+/webroot/logs/
+/webroot/config/
+/webroot/media/*
+!/webroot/media/.htaccess
+/webroot/sitemaps/
+/webroot/tmp/
+/webroot/shop.yml
+/webroot/templates/res/*
+!/webroot/templates/res/adm/
+!/webroot/templates/res/scripts/
+/webroot/templates/res/scripts/ckeditor/

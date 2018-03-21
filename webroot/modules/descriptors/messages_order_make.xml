@@ -1,0 +1,10 @@
+<messages>
+	<field name="c_name">
+		<error spec="blank">Поле «Контактное лицо» является обязательным!</error>
+	</field>
+	<field name="c_telephone">
+		<error spec="blank">Поле «Телефон» является обязательным!</error>
+		<error spec="chars">Не верно указан формат контактного телефона!</error>
+		<error spec="notfull">Не верно указан формат контактного телефона!</error>
+	</field>
+</messages>

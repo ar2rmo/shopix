@@ -1,0 +1,6 @@
+<form>
+	<control type="text" name="name">
+		<param name="caption">Наименование</param>
+		<param name="css_class">name</param>
+	</control>
+</form>

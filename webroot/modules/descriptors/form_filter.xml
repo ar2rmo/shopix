@@ -1,0 +1,38 @@
+<form>
+	<control type="list" name="brand">
+		<param name="caption">Производитель</param>
+		<param name="preamble">Производитель</param>
+		<param name="preamble_key" val="-1" />
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="cmb_brands" />
+		<param name="css_class">podbor</param>
+	</control>
+	<control type="list" name="crit1">
+		<param name="caption">Точность выходного напряжения</param>
+		<param name="preamble">Точность выходного напряжения</param>
+		<param name="preamble_key" val="-1" />
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="rb_get_criterias(:kind)" />
+		<list name="proc_param">
+			<param name="kind">FRST</param>
+		</list>
+		<param name="oclass" val="refbk" />
+		<param name="keyfld">id</param>
+		<param name="valfld">name</param>
+		<param name="css_class">podbor</param>
+	</control>
+	<control type="list" name="crit2">
+		<param name="caption">Способ регулирования</param>
+		<param name="preamble">Способ регулирования</param>
+		<param name="preamble_key" val="-1" />
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="rb_get_criterias(:kind)" />
+		<list name="proc_param">
+			<param name="kind">SCND</param>
+		</list>
+		<param name="oclass" val="refbk" />
+		<param name="keyfld">id</param>
+		<param name="valfld">name</param>
+		<param name="css_class">podbor</param>
+	</control>
+</form>

@@ -1,0 +1,24 @@
+<form>
+	<control type="text" name="code">
+		<param name="caption">Код</param>
+		<param name="css_class">code</param>
+	</control>
+	<control type="text" name="name">
+		<param name="caption">Наименование</param>
+		<param name="css_class">name</param>
+	</control>
+	<control type="list" name="datatype">
+		<param name="caption">Тип данных</param>
+		<param name="css_class">datatype</param>
+		<param name="source" val="const" />
+		<list name="clist">
+			<param name="STRING">Текстовый</param>
+			<param name="INTEGER">Целочисленный</param>
+			<param name="FLOAT">Вещественный</param>
+			<param name="MONEY">Денежный</param>
+			<param name="BOOLEAN">Логический</param>
+			<param name="DATETIME">Дата / время</param>
+			<param name="REFBOOK">Значение из справочника</param>
+		</list>
+	</control>
+</form>

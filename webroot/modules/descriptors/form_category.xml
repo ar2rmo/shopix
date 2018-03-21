@@ -1,0 +1,81 @@
+<form>
+	<control type="list" name="parent_id">
+		<param name="caption">Раздел</param>
+		<param name="preamble">[Корень]</param>
+		<param name="preamble_key" val="0" />
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="cmb_categories_excl(:nid)" />
+		<list name="proc_param">
+			<param name="nid" val="null" />
+		</list>
+		<param name="oclass" val="cmbitmht" />
+		<param name="css_class">sdropcat</param>
+	</control>
+	<control type="text" name="uri_name">
+		<param name="caption">ЧПУ</param>
+		<param name="css_class">urlname</param>
+	</control>
+	<control type="check" name="fshow">
+		<param name="caption">Показывать</param>
+	</control>
+	<control type="text" name="name">
+		<param name="caption">Название</param>
+		<param name="css_class">name</param>
+	</control>
+	<control type="text" name="fullname">
+		<param name="caption">Полное название</param>
+		<param name="css_class">title</param>
+	</control>
+	<control type="text" name="title">
+		<param name="caption">Заголовок (для meta)</param>
+		<param name="css_class">title</param>
+	</control>
+	<control type="mtext" name="keywords">
+		<param name="caption">Ключевые слова (для meta)</param>
+		<param name="rows" val="4" />
+		<param name="css_class">tags</param>
+	</control>
+	<control type="mtext" name="description">
+		<param name="caption">Описание (для meta)</param>
+		<param name="rows" val="5" />
+		<param name="css_class">description</param>
+	</control>
+	<control type="text" name="css">
+		<param name="caption">CSS класс в меню</param>
+		<param name="css_class">css</param>
+	</control>
+	<control type="wysiwyg" name="text_top">
+		<param name="caption">Описание</param>
+		<param name="rows" val="14" />
+		<param name="css_class">tabout_sec</param>
+	</control>
+	<control type="wysiwyg" name="text_bott">
+		<param name="caption">Описание в конце</param>
+		<param name="rows" val="14" />
+		<param name="css_class">tabout_sec</param>
+	</control>
+	<control type="check" name="mpict_del">
+		<param name="caption">Удалить изображение</param>
+	</control>
+	<control type="file" name="mpict">
+		<param name="caption">Изображение</param>
+		<list name="types">
+			<param val=".jpg" />
+			<param val=".jpeg" />
+			<param val=".png" />
+			<param val=".gif" />
+		</list>
+		<param name="css_class">pict_file</param>
+	</control>
+	
+	<control type="mlist" name="specs_t">
+		<param name="caption">Спецификации для товаров</param>
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="spec_groups_get()" />
+		<param name="oclass" val="spec_group" />
+		<param name="keyfld">id</param>
+		<param name="valfld">name</param>
+		<param name="size" val="11" />
+		<param name="css_class">category</param>
+	</control>
+</form>

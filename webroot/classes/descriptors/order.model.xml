@@ -1,0 +1,50 @@
+<fieldset>
+	<field dtype="integer" dbname="num" name="num" forupdate="1" />
+	<field dtype="string" dbname="c_name" name="c_name" forupdate="1">
+		<flag name="not_blank" />
+	</field>
+	<field dtype="string" dbname="c_email" name="c_email" forupdate="1" />
+	<field dtype="telephone" dbname="c_telephone" name="c_telephone" forupdate="1">
+		<param name="country">+380</param>
+	</field>
+	<field dtype="string" dbname="c_country" name="c_country" forupdate="1">
+		<flag name="null" />
+		<flag name="blank_null" />
+	</field>
+	<field dtype="string" dbname="c_city" name="c_city" forupdate="1">
+		<flag name="null" />
+		<flag name="blank_null" />
+	</field>
+	<field dtype="string" dbname="c_region" name="c_region" forupdate="1">
+		<flag name="null" />
+		<flag name="blank_null" />
+	</field>
+	<field dtype="string" dbname="c_address" name="c_address" forupdate="1">
+		<flag name="null" />
+		<flag name="blank_null" />
+	</field>
+	<field dtype="integer" dbname="shipping_id" name="shipping_id" forupdate="1">
+		<flag name="null" />
+	</field>
+	<field dtype="string" dbname="shipping" name="shipping" />
+	<field dtype="integer" dbname="payment_id" name="payment_id" forupdate="1">
+		<flag name="null" />
+	</field>
+	<field dtype="string" dbname="payment" name="payment" />
+	<field dtype="integer" dbname="status_id" name="status_id" forupdate="1" />
+	<field dtype="string" dbname="status" name="status" />
+	<field dtype="string" dbname="message" name="message" forupdate="1">
+		<flag name="null" />
+		<flag name="blank_null" />
+	</field>
+	<field dtype="string" dbname="coupon" name="coupon" forupdate="1">
+		<flag name="null" />
+		<flag name="blank_null" />
+	</field>
+	<field dtype="datetime" dbname="created" name="created">
+		<param name="format">d.m.Y</param>
+	</field>
+	<field dtype="real" dbname="summ" name="summ">
+		<param name="format">0 000,00</param>
+	</field>
+</fieldset>

@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^resources/(.*)$ templates/res/$1 [L]
+RewriteRule ^sitemap\.xml$ sitemaps/sitemap.xml [L]
+RewriteRule ^sitemap\.xml.gz$ sitemaps/sitemap.xml.gz [L]
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^([^/]+)$ $1 [L]
+RewriteCond %{REQUEST_URI} !^/templates/res/
+RewriteCond %{REQUEST_URI} !^/media/
+RewriteCond %{REQUEST_URI} !^/sitemaps/
+RewriteCond %{REQUEST_URI} !^/kcfinder/
+RewriteCond %{REQUEST_URI} !^/callme/
+RewriteRule . index.php [L]
+
+php_value display_errors 1
+php_value error_reporting 30719

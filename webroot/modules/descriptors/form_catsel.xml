@@ -1,0 +1,12 @@
+<form>
+	<control type="list" name="catsel">
+		<param name="caption">Выберите раздел для просмотра товаров</param>
+		<param name="preamble">Каталог</param>
+		<param name="preamble_key" val="/" />
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="cmb_categories_uri" />
+		<param name="oclass" val="catsel" />
+		<param name="keyfld">uri</param>
+		<param name="valfld">name</param>
+	</control>
+</form>

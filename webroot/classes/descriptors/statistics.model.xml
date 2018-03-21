@@ -1,0 +1,14 @@
+<fieldset>
+	<field dtype="integer" dbname="num_all" name="num_all" />
+	<field dtype="integer" dbname="num_show" name="num_show" />
+	<field dtype="integer" dbname="num_new" name="num_new" />
+	<field dtype="integer" dbname="num_recomend" name="num_recomend" />
+	<field dtype="integer" dbname="num_special" name="num_special" />
+	<field dtype="integer" dbname="news" name="news" />
+	<field dtype="integer" dbname="articles" name="articles" />
+	<field dtype="integer" dbname="specs" name="specs" />
+	<field dtype="integer" dbname="ord_new" name="ord_new" />
+	<field dtype="integer" dbname="ord_all" name="ord_all" />
+	<field dtype="real" dbname="ord_summ" name="ord_summ" />
+	<field dtype="integer" dbname="subscribers" name="subscribers" />
+</fieldset>

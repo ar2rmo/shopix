@@ -1,0 +1,23 @@
+<fieldset>
+
+	<field dtype="integer" dbname="ptid" name="id" forupdate="1" />
+	<field dtype="string" dbname="currency_code" name="currency_code" forupdate="1" />
+	<field dtype="string" dbname="name" name="name" forupdate="1">
+		<flag name="not_blank" />
+	</field>
+	
+	<field dtype="real" dbname="mark" name="mark" forupdate="1">
+		<param name="format">0,0</param>
+	</field>
+	
+	<field dtype="real" dbname="incr" name="incr" forupdate="1">
+		<param name="format">0,00</param>
+	</field>
+	
+	<field dtype="real" dbname="rate" name="rate" forupdate="1">
+		<param name="format">0,00</param>
+		<flag name="not_zero"/>
+		<flag name="positive"/>
+	</field>
+
+</fieldset>

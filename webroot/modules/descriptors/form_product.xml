@@ -1,0 +1,220 @@
+<form>
+	<control type="list" name="cid">
+		<param name="caption">Раздел</param>
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="cmb_categories" />
+		<param name="oclass" val="cmbitmht" />
+		<param name="css_class">sdropcat</param>
+	</control>
+	<control type="text" name="uri_name">
+		<param name="caption">ЧПУ</param>
+		<param name="css_class">urlname</param>
+	</control>
+	<control type="check" name="fshow">
+		<param name="caption">Показывать</param>
+	</control>
+	<control type="text" name="variant">
+		<param name="caption">Вариация</param>
+		<param name="css_class">name</param>
+	</control>
+	<control type="text" name="name">
+		<param name="caption">Наименование товара</param>
+		<param name="css_class">name</param>
+	</control>
+	<control type="text" name="fullname">
+		<param name="caption">Полное наименование</param>
+		<param name="css_class">title</param>
+	</control>
+	<control type="text" name="title">
+		<param name="caption">Заголовок (для meta)</param>
+		<param name="css_class">title</param>
+	</control>
+	<control type="mtext" name="keywords">
+		<param name="caption">Ключевые слова (для meta)</param>
+		<param name="rows" val="3" />
+		<param name="css_class">tags</param>
+	</control>
+	<control type="mtext" name="description">
+		<param name="caption">Описание (для meta)</param>
+		<param name="rows" val="3" />
+		<param name="css_class">description</param>
+	</control>
+	<control type="text" name="css">
+		<param name="caption">CSS класс в меню</param>
+		<param name="css_class">css</param>
+	</control>
+	<control type="text" name="code">
+		<param name="caption">Код товара</param>
+		<param name="css_class">PLU</param>
+	</control>
+	<control type="text" name="barcode">
+		<param name="caption">Штрихкод</param>
+		<param name="css_class">barcode</param>
+	</control>
+	<control type="list" name="brand_id">
+		<param name="caption">Бренд</param>
+		<param name="preamble">[нет]</param>
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="cmb_brands" />
+	</control>
+	<control type="text" name="measure">
+		<param name="caption">Единица измерения</param>
+		<param name="css_class">measure</param>
+	</control>
+	<control type="text" name="size">
+		<param name="caption">Размер (Вес)</param>
+		<param name="css_class">size</param>
+	</control>
+	<control type="mtext" name="descr_short">
+		<param name="caption">Краткое описание</param>
+		<param name="rows" val="19" />
+		<param name="css_class">tshortabout</param>
+	</control>
+	<control type="wysiwyg" name="descr_full">
+		<param name="caption">Описание</param>
+		<param name="rows" val="29" />
+		<param name="ckheight" val="800" />
+		<param name="css_class">tabout</param>
+	</control>
+	<control type="wysiwyg" name="descr_tech">
+		<param name="caption">Характеристики</param>
+		<param name="rows" val="39" />
+		<param name="ckheight" val="1200" />
+		<param name="css_class">tTTS</param>
+	</control>
+	<control type="text" name="price">
+		<param name="caption">Цена</param>
+		<param name="css_class">price</param>
+	</control>
+	<control type="text" name="oprice">
+		<param name="caption">Старая цена</param>
+		<param name="css_class">oprice</param>
+	</control>
+	<control type="list" name="price_type">
+		<param name="caption">Тип цены</param>
+		<param name="preamble">[нет]</param>
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="cmb_price_types" />
+	</control>
+	<control type="list" name="avail_id">
+		<param name="caption">Наличие товара</param>
+		<flag name="preamble" />
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="cmb_avail" />
+	</control>
+	<control type="text" name="avail_num">
+		<param name="caption">Остаток</param>
+		<param name="css_class">available</param>
+	</control>
+	<control type="check" name="fnew">
+		<param name="caption">Новинка</param>
+	</control>
+	<control type="check" name="frecomend">
+		<param name="caption">Рекомендуем</param>
+	</control>
+	<control type="check" name="fspecial">
+		<param name="caption">Акция</param>
+	</control>
+	<control type="check" name="forsale">
+		<param name="caption">Для продажи</param>
+	</control>
+	<control type="mtext" name="tags">
+		<param name="caption">Теги</param>
+		<param name="rows" val="1" />
+		<param name="css_class">tags</param>
+	</control>
+	<control type="mlist" name="crits1">
+		<param name="caption">Критерии 1</param>
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="get_criterias(:kind)" />
+		<list name="proc_param">
+			<param name="kind">FRST</param>
+		</list>
+		<param name="oclass" val="refbk" />
+		<param name="keyfld">id</param>
+		<param name="valfld">name</param>
+		<param name="size" val="11" />
+		<param name="css_class">category</param>
+	</control>
+	<control type="mlist" name="crits2">
+		<param name="caption">Критерии 2</param>
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="get_criterias(:kind)" />
+		<list name="proc_param">
+			<param name="kind">SCND</param>
+		</list>
+		<param name="oclass" val="refbk" />
+		<param name="keyfld">id</param>
+		<param name="valfld">name</param>
+		<param name="size" val="11" />
+		<param name="css_class">category</param>
+	</control>
+	<control type="mlist" name="crits3">
+		<param name="caption">Критерии 3</param>
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="get_criterias(:kind)" />
+		<list name="proc_param">
+			<param name="kind">THRD</param>
+		</list>
+		<param name="oclass" val="refbk" />
+		<param name="keyfld">id</param>
+		<param name="valfld">name</param>
+		<param name="size" val="11" />
+		<param name="css_class">category</param>
+	</control>
+	<control type="check" name="mpict_del">
+		<param name="caption">Удалить изображение</param>
+	</control>
+	<control type="file" name="mpict">
+		<param name="caption">Изображение</param>
+		<list name="types">
+			<param val=".jpg" />
+			<param val=".jpeg" />
+			<param val=".png" />
+			<param val=".gif" />
+		</list>
+		<param name="css_class">pict_file</param>
+	</control>
+	
+	<control type="mlist" name="specs_inh">
+		<param name="caption">Спецификации для модификаций</param>
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="spec_groups_get()" />
+		<param name="oclass" val="spec_group" />
+		<param name="keyfld">id</param>
+		<param name="valfld">name</param>
+		<param name="size" val="11" />
+		<param name="css_class">category</param>
+	</control>
+	
+	<control type="wysiwyg" name="extra1">
+		<param name="caption">Дополнительное поле 1</param>
+		<param name="rows" val="20" />
+		<param name="ckheight" val="400" />
+		<param name="css_class">tabout</param>
+	</control>
+	<control type="wysiwyg" name="extra2">
+		<param name="caption">Дополнительное поле 2</param>
+		<param name="rows" val="20" />
+		<param name="ckheight" val="400" />
+		<param name="css_class">tabout</param>
+	</control>
+	<control type="wysiwyg" name="extra3">
+		<param name="caption">Дополнительное поле 3</param>
+		<param name="rows" val="20" />
+		<param name="ckheight" val="400" />
+		<param name="css_class">tabout</param>
+	</control>
+	<control type="wysiwyg" name="extra4">
+		<param name="caption">Дополнительное поле 4</param>
+		<param name="rows" val="20" />
+		<param name="ckheight" val="400" />
+		<param name="css_class">tabout</param>
+	</control>
+	<control type="wysiwyg" name="extra5">
+		<param name="caption">Дополнительное поле 5</param>
+		<param name="rows" val="20" />
+		<param name="ckheight" val="400" />
+		<param name="css_class">tabout</param>
+	</control>
+</form>

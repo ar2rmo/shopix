@@ -1,0 +1,58 @@
+<fieldset>
+	<field dtype="integer" dbname="aid" name="id" forupdate="1" />
+	<field dtype="string" dbname="uri_id" name="uid" />
+	<field dtype="datetime" dbname="adate" name="date" forupdate="1">
+		<param name="format">d.m.Y</param>
+	</field>
+	<field dtype="boolean" dbname="fshow" name="fshow" forupdate="1" />
+	<field dtype="string" dbname="title" name="title" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="string" dbname="keywords" name="keywords" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="string" dbname="description" name="description" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="string" dbname="d_title" name="d_title" />
+	<field dtype="string" dbname="d_keywords" name="d_keywords" />
+	<field dtype="string" dbname="d_description" name="d_description" />
+	<field dtype="string" dbname="css" name="css" forupdate="1" />
+	<field dtype="string" dbname="caption" name="caption" forupdate="1">
+		<flag name="not_blank"/>
+	</field>
+	<field dtype="string" dbname="uri_name" name="uri_name" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+		<param name="charset" val="uri" />
+		<flag name="not_numeric" />
+		<param name="max_chars" val="32" />
+	</field>
+	<field dtype="string" dbname="short" name="short" forupdate="1">
+		<flag name="not_blank"/>
+		<flag name="html_inside"/>
+	</field>
+	<field dtype="string" dbname="full" name="full" forupdate="1">
+		<flag name="html_inside"/>
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="string" dbname="href" name="href" forupdate="1" />
+	<field dtype="string" dbname="link" name="link" forupdate="1" />
+	<field dtype="boolean" dbname="isfull" name="isfull" />
+	
+	<field dtype="boolean" name="mpict_del" />
+	<field dtype="fsfile" name="mpict">
+		<flag name="null"/>
+		<list name="types">
+			<param val="image/jpeg" />
+			<param val="image/png" />
+			<param val="image/gif" />
+		</list>
+	</field>
+	
+	<field dtype="string" dbname="a_kind" name="kind" />
+</fieldset>

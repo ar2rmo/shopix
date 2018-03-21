@@ -1,0 +1,21 @@
+<fieldset>
+	<field dtype="integer" dbname="uid" name="id" forupdate="1" />
+	<field dtype="boolean" dbname="banned" name="banned" forupdate="1" />
+	<field dtype="string" dbname="login" name="login" forupdate="1">
+		<flag name="not_blank"/>
+		<param name="charset">numlatsp</param>
+	</field>
+	<field dtype="string" dbname="name" name="name" forupdate="1">
+		<flag name="not_blank"/>
+	</field>
+	<field dtype="string" dbname="pword" name="pword" forupdate="1">
+		<flag name="null"/>
+		<flag name="not_blank"/>
+		<param name="min_chars" val="4" />
+		<param name="max_chars" val="32" />
+		<param name="charset">numlat</param>
+	</field>
+	<field dtype="string" dbname="role" name="role" forupdate="1">.
+		<param name="regexp"><![CDATA[/^(?:PL_ROOT)|(?:PL_ADMIN)$/]]></param>
+	</field>
+</fieldset>

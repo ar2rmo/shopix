@@ -1,0 +1,23 @@
+<form>
+	<control type="list" name="brand">
+		<param name="caption">Производитель</param>
+		<param name="preamble">Производитель</param>
+		<param name="preamble_key" val="null" />
+		<param name="source" val="dbproc" />
+		<param name="css_class">podbor</param>
+	</control>
+	<control type="list" name="crit1">
+		<param name="caption">Цвет</param>
+		<param name="preamble">Цвет</param>
+		<param name="preamble_key" val="null" />
+		<param name="source" val="dbproc" />
+		<param name="css_class">podbor</param>
+	</control>
+	<control type="list" name="crit2">
+		<param name="caption">Размер</param>
+		<param name="preamble">Размер</param>
+		<param name="preamble_key" val="null" />
+		<param name="source" val="dbproc" />
+		<param name="css_class">podbor</param>
+	</control>
+</form>

@@ -1,0 +1,6 @@
+<form>
+	<control type="text" name="name">
+		<param name="caption">Наименование</param>
+		<param name="css_style" val="width: 320px;" />
+	</control>
+</form>

@@ -1,0 +1,9 @@
+<fieldset>
+	<field dtype="telephone" dbname="telephone" name="telephone" forupdate="1">
+		<param name="country">+380</param>
+	</field>
+	<field dtype="integer" dbname="ord_count" name="ord_count" />
+	<field dtype="real" dbname="ord_summ" name="ord_summ">
+		<param name="format">0 000,00</param>
+	</field>
+</fieldset>

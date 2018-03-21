@@ -1,0 +1,15 @@
+<messages>
+	<field name="login">
+		<error spec="blank">Поле «Логин» является обязательным</error>
+		<error spec="inval_charset">Логин должен состоятьиз букв латинского алфавита, цифр, и символов: точка, дефиз, нижнее подчеркивание и @</error>
+	</field>
+	<field name="name">
+		<error spec="blank">Поле «Имя» является обязательным</error>
+	</field>
+	<field name="pword">
+		<error spec="blank">Введите пароль одинаково в оба поля</error>
+		<error spec="min_chars">Длина пароля должна быть не менее 4 символов</error>
+		<error spec="max_chars">Длина пароля должна быть не более 32 символов</error>
+		<error spec="inval_charset">Пароль должен состоятьиз букв латинского алфавита и цифр</error>
+	</field>
+</messages>

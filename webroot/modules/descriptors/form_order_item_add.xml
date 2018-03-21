@@ -1,0 +1,10 @@
+<form>
+	<control type="list" name="p_id">
+		<param name="caption">Выберите товар</param>
+		<!--<param name="preamble">Каталог</param>
+		<param name="preamble_key" val="null" />-->
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="cmb_products_foradd(:nid)" />
+		<param name="oclass" val="cmbitmht" />
+	</control>
+</form>

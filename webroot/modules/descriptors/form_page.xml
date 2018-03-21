@@ -1,0 +1,66 @@
+<form>
+	<control type="text" name="caption">
+		<param name="caption">Наименование страницы</param>
+		<param name="css_style" val="width: 320px;" />
+	</control>
+	<control type="text" name="uri_name">
+		<param name="caption">Адрес страницы (для ЧПУ)</param>
+		<param name="css_style" val="width: 320px;" />
+	</control>
+	<control type="text" name="title">
+		<param name="caption">Заголовок</param>
+		<param name="css_style" val="width: 320px;" />
+	</control>
+	<control type="mtext" name="keywords">
+		<param name="caption">Ключевые слова (для meta)</param>
+		<param name="rows" val="3" />
+		<param name="css_style" val="width: 640px;" />
+	</control>
+	<control type="mtext" name="description">
+		<param name="caption">Описание (для meta)</param>
+		<param name="rows" val="3" />
+		<param name="css_style" val="width: 640px;" />
+	</control>
+	<control type="text" name="css">
+		<param name="caption">CSS класс в меню</param>
+		<param name="css_style" val="width: 320px;" />
+	</control>
+	<control type="wysiwyg" name="text">
+		<param name="caption">Содержимое страницы</param>
+		<param name="css_style" val="width: 100%; height: 400px;" />
+		<param name="ckheight" val="800" />
+	</control>
+	<control type="check" name="mnu">
+		<param name="caption">Показывать</param>
+	</control>
+	<control type="check" name="mref">
+		<param name="caption">Ссылка</param>
+	</control>
+	<control type="list" name="pid">
+		<param name="caption">Вложенность</param>
+		<param name="preamble">[Корень]</param>
+		<param name="preamble_key" val="null" />
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="cmb_menu(null,:id)" />
+		<list name="proc_param">
+			<param name="id" val="null" />
+		</list>
+		<param name="oclass" val="cmbitmht" />
+		<param name="css_style" val="width: 320px;" />
+	</control>
+	<control type="list" name="after">
+		<param name="caption">Переместить после</param>
+		<list name="preamble">
+			<param name="null">[не менять]</param>
+			<param name="0">[в начало]</param>
+		</list>
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="cmb_menu(:pid,:id)" />
+		<list name="proc_param">
+			<param name="pid" val="null" />
+			<param name="id" val="null" />
+		</list>
+		<param name="oclass" val="cmbitmht" />
+		<param name="css_style" val="width: 320px;" />
+	</control>
+</form>

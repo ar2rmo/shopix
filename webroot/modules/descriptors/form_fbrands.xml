@@ -1,0 +1,8 @@
+<form>
+	<control type="list" name="fbrands">
+		<param name="caption">Производитель</param>
+		<param name="preamble">Производитель</param>
+		<param name="preamble_key" val="null" />
+		<param name="source" val="dbproc" />
+	</control>
+</form>

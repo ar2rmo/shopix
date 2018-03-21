@@ -1,0 +1,11 @@
+<messages>
+	<field name="qty">
+		<error spec="inval">Количество должно быть целым числом!</error>
+		<error spec="fract">Количество должно быть целым числом!</error>
+		<error spec="negative">Количество должно быть больше нуля!</error>
+	</field>
+	<field name="price">
+		<error spec="inval">Цена должна быть числом!</error>
+		<error spec="negative">Цена должна быть больше нуля!</error>
+	</field>
+</messages>

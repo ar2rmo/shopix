@@ -1,0 +1,17 @@
+<fieldset>
+	<field dtype="integer" dbname="pid" name="pid" forupdate="1" />
+	<field dtype="integer" dbname="pn" name="pn" forupdate="1" />
+	<field dtype="string" dbname="name" name="pp_name" forupdate="1" />
+	
+	<field dtype="string" dbname="pict_uri" name="pp_pict_uri" />
+	
+	<field dtype="boolean" name="pp_pict_del" />
+	<field dtype="fsfile" name="pp_pict">
+		<flag name="null"/>
+		<list name="types">
+			<param val="image/jpeg" />
+			<param val="image/png" />
+			<param val="image/gif" />
+		</list>
+	</field>
+</fieldset>

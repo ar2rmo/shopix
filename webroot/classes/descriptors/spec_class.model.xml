@@ -1,0 +1,19 @@
+<fieldset>
+	<field dtype="integer" dbname="scid" name="id" forupdate="1" />
+	<field dtype="string" dbname="icode" name="icode" />
+	
+	<field dtype="string" dbname="code" name="code" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="string" dbname="name" name="name" forupdate="1">
+		<flag name="not_blank" />
+	</field>
+	
+	<field dtype="boolean" dbname="is_multy" name="is_multy" forupdate="1" />
+	<field dtype="string" dbname="datatype" name="datatype" forupdate="1" />
+	
+	<field dtype="integer" dbname="group_id" name="group_id" forupdate="1" />
+	<field dtype="string" dbname="group_code" name="group_code" />
+	<field dtype="string" dbname="group_name" name="group_name" />
+</fieldset>

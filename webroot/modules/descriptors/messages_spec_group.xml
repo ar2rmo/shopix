@@ -1,0 +1,5 @@
+<messages>
+	<field name="name">
+		<error spec="blank">Наименование не может быть пустым</error>
+	</field>
+</messages>

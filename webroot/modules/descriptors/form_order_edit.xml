@@ -1,0 +1,69 @@
+<form>
+	<control type="text" name="c_name">
+		<param name="caption">Контактное лицо</param>
+		<param name="css_style" val="width: 640px;" />
+	</control>
+	<control type="text" name="c_email">
+		<param name="caption">E-mail</param>
+		<param name="css_style" val="width: 640px;" />
+	</control>
+	<control type="text" name="c_telephone">
+		<param name="caption">Телефон</param>
+		<param name="css_style" val="width: 640px;" />
+	</control>
+	<control type="text" name="c_country">
+		<param name="caption">Страна</param>
+		<param name="css_style" val="width: 640px;" />
+	</control>
+	<control type="text" name="c_city">
+		<param name="caption">Город</param>
+		<param name="css_style" val="width: 640px;" />
+	</control>
+	<control type="text" name="c_region">
+		<param name="caption">Область</param>
+		<param name="css_style" val="width: 640px;" />
+	</control>
+	<control type="text" name="c_address">
+		<param name="caption">Адрес доставки</param>
+		<param name="css_style" val="width: 640px;" />
+	</control>
+	<control type="list" name="shipping_id">
+		<param name="caption">Способ доставки</param>
+		<param name="preamble"></param>
+		<param name="preamble_key" val="null" />
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="rb_get_list_shipping" />
+		<param name="oclass" val="refbk" />
+		<param name="keyfld">id</param>
+		<param name="valfld">name</param>
+		<param name="css_style" val="width: 640px;" />
+	</control>
+	<control type="list" name="payment_id">
+		<param name="caption">Форма оплаты</param>
+		<param name="preamble"></param>
+		<param name="preamble_key" val="null" />
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="rb_get_list_payment" />
+		<param name="oclass" val="refbk" />
+		<param name="keyfld">id</param>
+		<param name="valfld">name</param>
+		<param name="css_style" val="width: 640px;" />
+	</control>
+	<control type="list" name="status_id">
+		<param name="caption">Статус заказа</param>
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="rb_get_list_status" />
+		<param name="oclass" val="refbk" />
+		<param name="keyfld">id</param>
+		<param name="valfld">name</param>
+		<param name="css_style" val="width: 640px;" />
+	</control>
+	<control type="mtext" name="message">
+		<param name="caption">Примечания</param>
+		<param name="css_style" val="width: 640px;  height: 240px;" />
+	</control>
+	<control type="text" name="coupon">
+		<param name="caption">Код скидки</param>
+		<param name="css_style" val="width: 640px;" />
+	</control>
+</form>

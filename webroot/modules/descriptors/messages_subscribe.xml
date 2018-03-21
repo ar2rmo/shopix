@@ -1,0 +1,6 @@
+<messages>
+	<field name="email">
+		<error spec="blank">Вы не ввели E-mail адрес!</error>
+		<error spec="inval_email">Вы ввели не корректный E-mail адрес!</error>
+	</field>
+</messages>

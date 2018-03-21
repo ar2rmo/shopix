@@ -1,0 +1,20 @@
+<fieldset>
+	<field dtype="integer" dbname="pid" name="parent_id" forupdate="1" />
+	
+	<field dtype="string" dbname="variant" name="variant" forupdate="1">
+		<flag name="not_blank" />
+	</field>
+	<field dtype="boolean" dbname="inh_price" name="inh_price" forupdate="1" />
+	<field dtype="real" dbname="price" name="price" forupdate="1">
+		<flag name="null"/>
+		<flag name="inv_null"/>
+		<flag name="zero_null"/>
+		<flag name="positive"/>
+		<param name="format">0 000,00</param>
+	</field>
+	<field dtype="boolean" dbname="fshow" name="fshow" forupdate="1" />
+	<field dtype="boolean" dbname="forsale" name="forsale" forupdate="1" />
+	
+	<field dtype="integer" dbname="variant_id" name="variant_id" />
+	<field dtype="string" dbname="variant_uri" name="variant_uri" />
+</fieldset>

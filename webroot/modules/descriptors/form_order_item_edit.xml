@@ -1,0 +1,10 @@
+<form>
+	<control type="text" name="qty">
+		<param name="caption">Количество</param>
+		<param name="css_class">count</param>
+	</control>
+	<control type="text" name="price">
+		<param name="caption">Цена</param>
+		<param name="css_class">price</param>
+	</control>
+</form>

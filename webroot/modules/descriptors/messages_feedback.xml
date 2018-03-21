@@ -1,0 +1,16 @@
+<messages>
+	<field name="name">
+		<error spec="blank">Поле «Контактное лицо» является обязательным</error>
+	</field>
+	<field name="email">
+		<error spec="blank">Поле «E-mail» является обязательным</error>
+		<error spec="inval_email">Введите корректный E-mail адрес</error>
+	</field>
+	<field name="message">
+		<error spec="blank">Вы не ввели текст сообщения</error>
+		<error spec="min_chars">Вы не ввели текст сообщения</error>
+	</field>
+	<field name="captcha">
+		<error spec="captcha">Неправильно введены буквы с картинки (капчи)</error>
+	</field>
+</messages>

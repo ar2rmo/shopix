@@ -1,0 +1,19 @@
+<form>
+	<control type="text" name="pp_name">
+		<param name="caption">Дополнительное изображение</param>
+		<param name="css_class">pict_name</param>
+	</control>
+	<control type="check" name="pp_pict_del">
+		<param name="caption">Удалить изображение</param>
+	</control>
+	<control type="file" name="pp_pict">
+		<param name="caption">Изображение</param>
+		<list name="types">
+			<param val=".jpg" />
+			<param val=".jpeg" />
+			<param val=".png" />
+			<param val=".gif" />
+		</list>
+		<param name="css_class">pict_file</param>
+	</control>
+</form>

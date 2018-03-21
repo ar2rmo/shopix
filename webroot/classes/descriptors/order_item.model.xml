@@ -1,0 +1,22 @@
+<fieldset>
+	<field dtype="integer" dbname="ord_id" name="id" forupdate="1" />
+	<field dtype="integer" dbname="or_id" name="o_num" />
+	<field dtype="integer" dbname="p_id" name="p_id" />
+	<field dtype="string" dbname="p_name" name="p_name" />
+	<field dtype="string" dbname="p_variant" name="p_variant" />
+	<field dtype="string" dbname="p_code" name="p_code" />
+	<field dtype="string" dbname="p_barcode" name="p_barcode" />
+	<field dtype="integer" dbname="b_brand_id" name="b_brand_id" />
+	<field dtype="string" dbname="b_brand_name" name="b_brand_name" />
+	<field dtype="integer" dbname="qty" name="qty" forupdate="1">
+		<flag name="positive" />
+		<param name="onfract">deny</param>
+	</field>
+	<field dtype="real" dbname="price" name="price" forupdate="1">
+		<flag name="positive" />
+		<param name="format">0 000,00</param>
+	</field>
+	<field dtype="real" dbname="summ" name="summ">
+		<param name="format">0 000,00</param>
+	</field>
+</fieldset>

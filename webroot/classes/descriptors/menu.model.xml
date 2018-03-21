@@ -1,0 +1,24 @@
+<fieldset>
+	<field dtype="integer" dbname="pid" name="id" />
+	
+	<field dtype="string" dbname="uri_name" name="uri_name" />
+	<field dtype="string" dbname="uri" name="uri" />
+	
+	<field dtype="string" dbname="caption" name="caption">
+		<flag name="not_blank"/>
+	</field>
+	<field dtype="string" dbname="css" name="css">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	
+	<field dtype="integer" dbname="par_id" name="pid" />
+	<field dtype="string" dbname="par_caption" name="pcaption" />
+	
+	<field dtype="boolean" dbname="ro" name="ro" />
+	<field dtype="boolean" dbname="mref" name="mref" />
+	
+	<field dtype="integer" dbname="m_level" name="level" />
+	
+	<field dtype="boolean" dbname="selected" name="selected" />
+</fieldset>

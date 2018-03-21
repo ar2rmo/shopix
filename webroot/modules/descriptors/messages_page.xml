@@ -1,0 +1,11 @@
+<messages>
+	<field name="uri_name">
+		<error spec="blank">ЧПУ - обязательное поле</error>
+		<error spec="inval_charset">В ЧПУ разрешено использовать только строчные буквы латинского алфавита, цифры и дефиз</error>
+		<error spec="max_chars">Длина ЧПУ должна быть не более 32 символов</error>
+		<error spec="numeric">ЧПУ должна содержать хотя-бы одну букву</error>
+	</field>
+	<field name="caption">
+		<error spec="blank">Наименование страницы - обязательное поле</error>
+	</field>
+</messages>

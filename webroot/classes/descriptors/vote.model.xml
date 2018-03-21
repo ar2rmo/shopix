@@ -1,0 +1,9 @@
+<fieldset>
+	<field dtype="integer" dbname="vid" name="id" />
+	<field dtype="integer" dbname="pid" name="pid" forupdate="1" />
+	
+	<field dtype="integer" dbname="rate" name="Rate" forupdate="1" />
+	<field dtype="string" dbname="ip" name="IP" forupdate="1" />
+	
+	<field dtype="datetime" dbname="time" name="Time" />
+</fieldset>

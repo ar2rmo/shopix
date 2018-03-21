@@ -1,0 +1,9 @@
+<fieldset>
+	<field dtype="integer" dbname="pid" name="pid" />
+	
+	<field dtype="integer" dbname="count" name="Count" />
+	<field dtype="real" dbname="average" name="Average" />
+	<field dtype="integer" dbname="iaverage" name="AverageInt" />
+	
+	<field dtype="string" dbname="VotedIP" name="Time" />
+</fieldset>

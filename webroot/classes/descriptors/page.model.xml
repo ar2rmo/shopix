@@ -1,0 +1,49 @@
+<fieldset>
+	<field dtype="integer" dbname="pid" name="id" forupdate="1" />
+	
+	<field dtype="string" dbname="caption" name="caption" forupdate="1" >
+		<flag name="not_blank"/>
+	</field>
+	<field dtype="string" dbname="uri_name" name="uri_name" forupdate="1">
+		<flag name="not_blank"/>
+		<param name="charset" val="uri" />
+		<flag name="not_numeric" />
+		<param name="max_chars" val="32" />
+	</field>
+	<field dtype="string" dbname="uri" name="uri" />
+	<field dtype="string" dbname="title" name="title" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="string" dbname="keywords" name="keywords" forupdate="1" />
+	<field dtype="string" dbname="description" name="description" forupdate="1" />
+	<field dtype="string" dbname="css" name="css" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	
+	<field dtype="integer" dbname="par_id" name="pid" forupdate="1">
+		<flag name="null"/>
+	</field>
+	<field dtype="string" dbname="par_caption" name="pcaption" />
+	<field dtype="string" dbname="par_uri" name="puri" />
+	<field dtype="string" dbname="par_uri_name" name="puri_name" />
+	
+	<field dtype="string" dbname="d_title" name="d_title" />
+	<field dtype="string" dbname="d_keywords" name="d_keywords" />
+	<field dtype="string" dbname="d_description" name="d_description" />
+	
+	<field dtype="string" dbname="ptext" name="text" forupdate="1">
+		<flag name="html_inside"/>
+	</field>
+	
+	<field dtype="boolean" dbname="mnu" name="mnu" forupdate="1" />
+	<field dtype="boolean" dbname="mref" name="mref" forupdate="1" />
+	<field dtype="integer" dbname="after" name="after" forupdate="1">
+		<flag name="null"/>
+	</field>
+	
+	<field dtype="boolean" dbname="ro" name="ro" />
+	
+	<field dtype="boolean" dbname="p_empty" name="pempty" />
+</fieldset>

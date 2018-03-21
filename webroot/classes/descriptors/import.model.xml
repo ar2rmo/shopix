@@ -1,0 +1,4 @@
+<fieldset>
+	<field dtype="fsfile" name="file" />
+	<!--<field dtype="string" name="method" />-->
+</fieldset>

@@ -1,0 +1,28 @@
+<form>
+	<control type="text" name="name">
+		<param name="caption">Наименование</param>
+		<param name="css_style" val="width: 320px;" />
+	</control>
+	
+	<control type="text" name="mark">
+		<param name="caption">Наценка (%)</param>
+		<param name="css_style" val="width: 320px;" />
+	</control>
+	
+	<control type="text" name="incr">
+		<param name="caption">Наценка (+)</param>
+		<param name="css_style" val="width: 320px;" />
+	</control>
+	
+	<control type="list" name="currency_code">
+		<param name="caption">Валюта</param>
+		<param name="oclass" val="cmbitmsk" />
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="cmb_currencies" />
+	</control>
+	
+	<control type="text" name="rate">
+		<param name="caption">Курс валюты</param>
+		<param name="css_style" val="width: 320px;" />
+	</control>
+</form>

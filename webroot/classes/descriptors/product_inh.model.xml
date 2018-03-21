@@ -1,0 +1,23 @@
+<fieldset>
+	<field dtype="integer" dbname="pid" name="pid" forupdate="1" />
+	<field dtype="boolean" dbname="inh_name" name="inh_name" forupdate="1" />
+	<field dtype="boolean" dbname="inh_fullname" name="inh_fullname" forupdate="1" />
+	<field dtype="boolean" dbname="inh_title" name="inh_title" forupdate="1" />
+	<field dtype="boolean" dbname="inh_keywords" name="inh_keywords" forupdate="1" />
+	<field dtype="boolean" dbname="inh_description" name="inh_description" forupdate="1" />
+	<field dtype="boolean" dbname="inh_css" name="inh_css" forupdate="1" />
+	<field dtype="boolean" dbname="inh_code" name="inh_code" forupdate="1" />
+	<field dtype="boolean" dbname="inh_barcode" name="inh_barcode" forupdate="1" />
+	<field dtype="boolean" dbname="inh_brand" name="inh_brand" forupdate="1" />
+	<field dtype="boolean" dbname="inh_measure" name="inh_measure" forupdate="1" />
+	<field dtype="boolean" dbname="inh_size" name="inh_size" forupdate="1" />
+	<field dtype="boolean" dbname="inh_descr_short" name="inh_descr_short" forupdate="1" />
+	<field dtype="boolean" dbname="inh_descr_full" name="inh_descr_full" forupdate="1" />
+	<field dtype="boolean" dbname="inh_descr_tech" name="inh_descr_tech" forupdate="1" />
+	<field dtype="boolean" dbname="inh_price" name="inh_price" forupdate="1" />
+	<field dtype="boolean" dbname="inh_fnew" name="inh_fnew" forupdate="1" />
+	<field dtype="boolean" dbname="inh_frecomend" name="inh_frecomend" forupdate="1" />
+	<field dtype="boolean" dbname="inh_fspecial" name="inh_fspecial" forupdate="1" />
+	<field dtype="boolean" dbname="inh_tags" name="inh_tags" forupdate="1" />
+	<field dtype="boolean" dbname="inh_crits" name="inh_crits" forupdate="1" />
+</fieldset>

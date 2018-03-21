@@ -1,0 +1,12 @@
+<form>
+	<control type="list" name="fsort">
+		<param name="caption">Производитель</param>
+		<param name="source" val="const" />
+		<list name="clist">
+			<param name="default">По умолчанию</param>
+			<param name="price_asc">По возрастанию стоимости</param>
+			<param name="price_desc">По убыванию стоимости</param>
+			<param name="name">По названию</param>
+		</list>
+	</control>
+</form>

@@ -1,0 +1,13 @@
+<fieldset>
+	<field dtype="integer" dbname="id" name="id" />
+	
+	<field dtype="string" dbname="email" name="email">
+		<flag name="not_blank" />
+		<flag name="valid_email" />
+	</field>
+	<field dtype="string" dbname="ip" name="ip" />
+	<field dtype="string" dbname="unsuc" name="unsuc" />
+	
+	<field dtype="datetime" dbname="subscribed" name="subscribed" />
+	<field dtype="datetime" dbname="broadcasted" name="broadcasted" />
+</fieldset>

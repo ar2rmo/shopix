@@ -1,0 +1,73 @@
+<fieldset>
+	<field dtype="integer" dbname="nid" name="id" forupdate="1" />
+	<field dtype="integer" dbname="np" name="parent_id" forupdate="1" />
+	
+	<field dtype="string" dbname="uri_name" name="uri_name" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+		<param name="charset" val="numlatsp" />
+		<flag name="not_numeric" />
+		<param name="max_chars" val="128" />
+	</field>
+	<field dtype="string" dbname="uri" name="uri" />
+	<field dtype="boolean" dbname="fshow" name="fshow" forupdate="1" />
+	<field dtype="boolean" dbname="visible" name="visible" />
+	<field dtype="integer" dbname="count" name="count" />
+	<field dtype="integer" dbname="fullcount" name="fullcount" />
+	<field dtype="integer" dbname="vcount" name="vcount" />
+	<field dtype="integer" dbname="vfullcount" name="vfullcount" />
+	<field dtype="integer" dbname="modcount" name="modcount" />
+	<field dtype="integer" dbname="fullmodcount" name="fullmodcount" />
+	<field dtype="integer" dbname="vmodcount" name="vmodcount" />
+	<field dtype="integer" dbname="vfullmodcount" name="vfullmodcount" />
+	
+	<field dtype="string" dbname="name" name="name" forupdate="1">
+		<flag name="not_blank"/>
+		<flag name="not_whitespace"/>
+	</field>
+	<field dtype="string" dbname="fullname" name="fullname" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="string" dbname="title" name="title" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="string" dbname="keywords" name="keywords" forupdate="1" />
+	<field dtype="string" dbname="description" name="description" forupdate="1" />
+	<field dtype="string" dbname="css" name="css" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	
+	<field dtype="string" dbname="text_top" name="text_top" forupdate="1">
+		<flag name="html_inside" />
+	</field>
+	<field dtype="string" dbname="text_bott" name="text_bott" forupdate="1">
+		<flag name="html_inside" />
+	</field>
+	
+	<field dtype="string" dbname="d_name" name="d_name" />
+	<field dtype="string" dbname="d_title" name="d_title" />
+	<field dtype="string" dbname="d_keywords" name="d_keywords" />
+	<field dtype="string" dbname="d_description" name="d_description" />
+	<field dtype="string" dbname="r_keywords" name="r_keywords" />
+	<field dtype="string" dbname="r_description" name="r_description" />
+	
+	<field dtype="string" dbname="pict_uri" name="pict_uri" />
+	
+	<field dtype="boolean" name="mpict_del" />
+	<field dtype="fsfile" name="mpict">
+		<flag name="null"/>
+		<list name="types">
+			<param val="image/jpeg" />
+			<param val="image/png" />
+			<param val="image/gif" />
+		</list>
+	</field>
+	
+	<field dtype="array" dbname="specs_t" name="specs_t" forupdate="1" />
+	
+	<field dtype="integer" dbname="t_level" name="level" />
+	<field dtype="boolean" dbname="selected" name="selected" />
+</fieldset>

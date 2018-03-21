@@ -1,0 +1,117 @@
+td.admin_menu{
+	width: 200px;
+	height:100%;
+	padding: 10px;
+	vertical-align:top;
+	
+}
+
+div.admin_submenu{
+	width: 98%;
+	height: 50px;
+}
+
+td.admin_content{
+	width: 98%;
+	background-color: #dddddd;
+	vertical-align: top;
+}
+#sel_table td{
+	padding:0 5px;
+}
+.selrow{
+	background-color: #0E263E;
+}
+.selrow2{
+	background-color: #3B6085;
+}
+
+.table1,
+.table2{
+	cursor:default;
+}
+
+.table1 a,
+.table2 a{
+	color:#C9DBEE;
+}
+
+.table1 td,
+.table2 td{
+	border:1px solid #3B6085;
+	padding:3px;
+}
+
+table.admin_content{
+	empty-cells:show;
+	border-spacing:0px;
+	cursor:default;
+}
+
+table.admin_content td{
+	padding:2px;
+}
+
+/******************************************************************************************************/
+
+#sel_table{
+	cursor:default;
+}
+
+/**************************************************************************************************/
+/*******************************************	формы добавления	****************************************/
+/**************************************************************************************************/
+div.form{
+	position:fixed;
+	top:0px;
+	left:0px;
+	height:100%;
+	background-image:url(/resources/adm/img/1.png);
+	width:100%;
+}
+
+table.form{
+	position:relative;
+	margin:150px auto auto auto;
+	width:auto;
+	border: 1px solid #000000;
+	background-color: #eeeeee;
+	font-weight:bold;
+	empty-cells:show;
+	border-spacing:0px;
+	cursor:default;
+}
+
+table.form td{
+	padding:2px 5px;
+	color: #CC0000;
+}
+
+div.form a{
+	font-size:12px;
+}
+/**************************************************************************************************/
+/*******************************************	редактор	****************************************/
+/**************************************************************************************************/
+
+/****************************************************************************************************************************************************************************/
+/***************************************************                                     control structures                                                   **************************************************************/
+/****************************************************************************************************************************************************************************/
+
+.error{
+	color: red;
+	font-weight: bold;
+}
+
+.ok{
+	color: green;
+	font-weight: bold;
+}
+
+.button{
+	font-weight: bold;
+	color: #0000ff;
+	text-decoration: underline;
+	cursor: pointer;
+}
+

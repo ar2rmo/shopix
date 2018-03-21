@@ -1,0 +1,21 @@
+<form>
+	<control type="text" name="name">
+		<param name="caption">Контактное лицо</param>
+		<param name="css_class">input</param>
+	</control>
+	<control type="text" name="email">
+		<param name="caption">Ваш E-mail</param>
+		<param name="css_class">input</param>
+	</control>
+	<control type="mtext" name="message">
+		<param name="caption">Ваше сообщение</param>
+		<param name="css_style" val="width: 400px; height: 150px; border: 1px solid #999;" />
+	</control>
+	<control type="captcha" name="captcha_img">
+		<param name="caption">Введите буквы с картинки</param>
+	</control>
+	<control type="text" name="captcha">
+		<param name="caption">Введите буквы с картинки</param>
+		<param name="css_class">input</param>
+	</control>
+</form>

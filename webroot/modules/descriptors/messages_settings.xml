@@ -1,0 +1,90 @@
+<messages>
+	<field name="img_max_width">
+		<error spec="inval">Максимальная ширина изображения должна иметь числовое значение</error>
+		<error spec="positive">Максимальная ширина изображения не может быть отрицательной</error>
+	</field>
+	<field name="img_max_height">
+		<error spec="inval">Максимальная высота изображения должна иметь числовое значение</error>
+		<error spec="positive">Максимальная высота изображения не может быть отрицательной</error>
+	</field>
+	<field name="img_small_width">
+		<error spec="inval">Ширина маленького изображения должна иметь числовое значение</error>
+		<error spec="positive">Ширина маленького изображения не может быть отрицательной</error>
+	</field>
+	<field name="img_small_height">
+		<error spec="inval">Высота маленького изображения должна иметь числовое значение</error>
+		<error spec="positive">Высота маленького изображения не может быть отрицательной</error>
+	</field>
+	<field name="img_middle_width">
+		<error spec="inval">Ширина среднего изображения должна иметь числовое значение</error>
+		<error spec="positive">Ширина среднего изображения не может быть отрицательной</error>
+	</field>
+	<field name="img_middle_height">
+		<error spec="inval">Высота среднего изображения должна иметь числовое значение</error>
+		<error spec="positive">Высота среднего изображения не может быть отрицательной</error>
+	</field>
+	<field name="img_small_width_cat">
+		<error spec="inval">Ширина маленького изображения должна иметь числовое значение</error>
+		<error spec="positive">Ширина маленького изображения не может быть отрицательной</error>
+	</field>
+	<field name="img_small_height_cat">
+		<error spec="inval">Высота маленького изображения должна иметь числовое значение</error>
+		<error spec="positive">Высота маленького изображения не может быть отрицательной</error>
+	</field>
+	<field name="img_middle_width_cat">
+		<error spec="inval">Ширина среднего изображения должна иметь числовое значение</error>
+		<error spec="positive">Ширина среднего изображения не может быть отрицательной</error>
+	</field>
+	<field name="img_middle_height_cat">
+		<error spec="inval">Высота среднего изображения должна иметь числовое значение</error>
+		<error spec="positive">Высота среднего изображения не может быть отрицательной</error>
+	</field>
+	<field name="num_onpage_prod">
+		<error spec="inval">Количество товаров на странице должно иметь числовое значение</error>
+		<error spec="positive">Количество товаров на странице не может быть отрицательным</error>
+	</field>
+	<field name="num_box_rand">
+		<error spec="inval">Количество товаров в блоке «Случайные» должно иметь числовое значение</error>
+		<error spec="positive">Количество товаров в блоке «Случайные» не может быть отрицательным</error>
+	</field>
+	<field name="num_box_new">
+		<error spec="inval">Количество товаров в блоке «Новинки» должно иметь числовое значение</error>
+		<error spec="positive">Количество товаров в блоке «Новинки» не может быть отрицательным</error>
+	</field>
+	<field name="num_box_recomend">
+		<error spec="inval">Количество товаров в блоке «Рекомендуем» должно иметь числовое значение</error>
+		<error spec="positive">Количество товаров в блоке «Рекомендуем» не может быть отрицательным</error>
+	</field>
+	<field name="num_onpage_news">
+		<error spec="inval">Количество новостей на странице должно иметь числовое значение</error>
+		<error spec="positive">Количество новостей на странице не может быть отрицательным</error>
+	</field>
+	<field name="num_box_news">
+		<error spec="inval">Количество последних новостей должно иметь числовое значение</error>
+		<error spec="positive">Количество последних новостей не может быть отрицательным</error>
+	</field>
+	<field name="num_onpage_articles">
+		<error spec="inval">Количество статей на странице должно иметь числовое значение</error>
+		<error spec="positive">Количество статей на странице не может быть отрицательным</error>
+	</field>
+	<field name="num_box_articles">
+		<error spec="inval">Количество последних статей должно иметь числовое значение</error>
+		<error spec="positive">Количество последних статей не может быть отрицательным</error>
+	</field>
+	<field name="num_onpage_specials">
+		<error spec="inval">Количество акций на странице должно иметь числовое значение</error>
+		<error spec="positive">Количество акций на странице не может быть отрицательным</error>
+	</field>
+	<field name="num_box_specials">
+		<error spec="inval">Количество последних акций должно иметь числовое значение</error>
+		<error spec="positive">Количество последних акций не может быть отрицательным</error>
+	</field>
+	<field name="num_onpage_orders">
+		<error spec="inval">Количество заказов на странице должно иметь числовое значение</error>
+		<error spec="positive">Количество заказов на странице не может быть отрицательным</error>
+	</field>
+	
+	<field name="ord_mail">
+		<error spec="inval_email">Некорректный e-mail для отправки заказов</error>
+	</field>
+</messages>

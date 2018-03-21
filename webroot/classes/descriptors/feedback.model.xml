@@ -1,0 +1,16 @@
+<fieldset>
+	<field dtype="string" name="name">
+		<flag name="not_blank"/>
+		<param name="max_len" val="256" />
+	</field>
+	<field dtype="string" name="email">
+		<flag name="not_blank"/>
+		<flag name="valid_email"/>
+		<param name="max_len" val="256" />
+	</field>
+	<field dtype="string" name="message">
+		<flag name="not_blank"/>
+		<param name="max_len" val="1024" />
+	</field>
+	<field dtype="captcha" name="captcha" />
+</fieldset>

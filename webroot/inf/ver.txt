@@ -1,0 +1,5 @@
+#software:
+shop-r2is:2011.0000
+#requires:
+shop-r2is-struct:2016.0000
+shop-r2is-dbprog:2016.0001

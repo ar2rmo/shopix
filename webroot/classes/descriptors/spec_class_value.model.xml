@@ -1,0 +1,40 @@
+<fieldset>
+	<field dtype="integer" dbname="pid" name="pid" forupdate="1" />
+	<field dtype="integer" dbname="scid" name="ClassId" forupdate="1" />
+	
+	<field dtype="string" dbname="datatype" name="DataType" />
+	
+	<field dtype="integer" dbname="RefbookId" name="RefbookId" forupdate="1">
+		<flag name="null"/>
+		<flag name="inv_null"/>
+	</field>
+	<field dtype="string" dbname="RefbookName" name="RefbookName" />
+	<field dtype="string" dbname="RefbookCode" name="RefbookCode" />
+	
+	<field dtype="string" dbname="ValueString" name="ValueString" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="integer" dbname="ValueInteger" name="ValueInteger" forupdate="1">
+		<flag name="null"/>
+		<flag name="inv_null"/>
+	</field>
+	<field dtype="real" dbname="ValueFloat" name="ValueFloat" forupdate="1">
+		<flag name="null"/>
+		<flag name="inv_null"/>
+	</field>
+	<field dtype="real" dbname="ValueMoney" name="ValueMoney" forupdate="1">
+		<flag name="null"/>
+		<flag name="inv_null"/>
+	</field>
+	<field dtype="boolean" dbname="ValueBoolean" name="ValueBoolean" forupdate="1">
+		<flag name="null"/>
+		<param name="str_true">Да</param>
+		<param name="str_false">Нет</param>
+	</field>
+	<field dtype="datetime" dbname="ValueDatetime" name="ValueDatetime" forupdate="1">
+		<flag name="null"/>
+		<flag name="inv_null"/>
+		<param name="format" val="d.m.Y H:i:s" /> 
+	</field>
+</fieldset>

@@ -1,0 +1,62 @@
+<form>
+	<control type="check" name="inh_name">
+		<param name="caption">Изменить</param>
+	</control>
+	<control type="check" name="inh_fullname">
+		<param name="caption">Изменить</param>
+	</control>
+	<control type="check" name="inh_title">
+		<param name="caption">Изменить</param>
+	</control>
+	<control type="check" name="inh_keywords">
+		<param name="caption">Изменить</param>
+	</control>
+	<control type="check" name="inh_description">
+		<param name="caption">Изменить</param>
+	</control>
+	<control type="check" name="inh_css">
+		<param name="caption">Изменить</param>
+	</control>
+	<control type="check" name="inh_code">
+		<param name="caption">Изменить</param>
+	</control>
+	<control type="check" name="inh_barcode">
+		<param name="caption">Изменить</param>
+	</control>
+	<control type="check" name="inh_brand">
+		<param name="caption">Изменить</param>
+	</control>
+	<control type="check" name="inh_measure">
+		<param name="caption">Изменить</param>
+	</control>
+	<control type="check" name="inh_size">
+		<param name="caption">Изменить</param>
+	</control>
+	<control type="check" name="inh_descr_short">
+		<param name="caption">Изменить</param>
+	</control>
+	<control type="check" name="inh_descr_full">
+		<param name="caption">Изменить</param>
+	</control>
+	<control type="check" name="inh_descr_tech">
+		<param name="caption">Изменить</param>
+	</control>
+	<control type="check" name="inh_price">
+		<param name="caption">Изменить</param>
+	</control>
+	<control type="check" name="inh_fnew">
+		<param name="caption">Изменить</param>
+	</control>
+	<control type="check" name="inh_frecomend">
+		<param name="caption">Изменить</param>
+	</control>
+	<control type="check" name="inh_fspecial">
+		<param name="caption">Изменить</param>
+	</control>
+	<control type="check" name="inh_tags">
+		<param name="caption">Изменить</param>
+	</control>
+	<control type="check" name="inh_crits">
+		<param name="caption">Изменить</param>
+	</control>
+</form>

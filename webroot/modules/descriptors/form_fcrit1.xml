@@ -1,0 +1,8 @@
+<form>
+	<control type="list" name="fcrit1">
+		<param name="caption">Точность выходного напряжения</param>
+		<param name="preamble">Точность выходного напряжения</param>
+		<param name="preamble_key" val="null" />
+		<param name="source" val="dbproc" />
+	</control>
+</form>

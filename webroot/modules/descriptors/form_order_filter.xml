@@ -1,0 +1,18 @@
+<form>
+	<control type="list" name="status">
+		<param name="caption">Статус</param>
+		<param name="preamble"></param>
+		<param name="preamble_key" val="null" />
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="rb_get_list_status" />
+		<param name="oclass" val="refbk" />
+		<param name="keyfld">id</param>
+		<param name="valfld">name</param>
+	</control>
+	<control type="calendar" name="from">
+		<param name="caption">От</param>
+	</control>
+	<control type="calendar" name="to">
+		<param name="caption">до</param>
+	</control>
+</form>

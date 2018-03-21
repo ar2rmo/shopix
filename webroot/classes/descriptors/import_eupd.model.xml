@@ -1,0 +1,38 @@
+<fieldset>
+	<field dtype="integer" name="id" forupdate="1" />
+	<field dtype="boolean" name="fshow" forupdate="1" />
+	<field dtype="string" name="name" forupdate="1" />
+	<field dtype="string" name="fullname" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="string" name="title" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="string" name="keywords" forupdate="1" />
+	<field dtype="string" name="description" forupdate="1" />
+	<field dtype="string" name="barcode" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="string" name="measure" forupdate="1" />
+	<field dtype="string" name="size" forupdate="1" />
+	<field dtype="real" name="price" forupdate="1">
+		<flag name="null"/>
+		<flag name="inv_null"/>
+		<flag name="zero_null"/>
+		<flag name="positive"/>
+		<param name="format">0 000,00</param>
+	</field>
+	<field dtype="real" name="oprice" forupdate="1">
+		<flag name="null"/>
+		<flag name="inv_null"/>
+		<flag name="zero_null"/>
+		<flag name="positive"/>
+		<param name="format">0 000,00</param>
+	</field>
+	<field dtype="boolean" name="fnew" forupdate="1" />
+	<field dtype="boolean" name="frecomend" forupdate="1" />
+	<field dtype="boolean" name="fspecial" forupdate="1" />
+</fieldset>

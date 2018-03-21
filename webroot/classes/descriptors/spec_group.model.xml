@@ -1,0 +1,11 @@
+<fieldset>
+	<field dtype="integer" dbname="sgid" name="id" forupdate="1" />
+	
+	<field dtype="string" dbname="code" name="code" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="string" dbname="name" name="name" forupdate="1">
+		<flag name="not_blank" />
+	</field>
+</fieldset>

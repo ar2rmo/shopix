@@ -1,0 +1,14 @@
+<form>
+	<control type="file" name="file">
+		<param name="caption">Файл для импорта</param>
+	</control>
+	<!--<control type="list" name="method">
+		<param name="caption">Метод импорта</param>
+		<param name="source" val="const" />
+		<list name="clist">
+			<param name="wipe">С очисткой базы</param>
+			<param name="append">Добавление товара</param>
+			<param name="update">Обновление цены и наличия</param>
+		</list>
+	</control>-->
+</form>

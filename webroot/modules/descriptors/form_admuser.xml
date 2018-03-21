@@ -1,0 +1,27 @@
+<form>
+	<control type="check" name="banned">
+		<param name="caption">Заблокировать</param>
+	</control>
+	<control type="text" name="login">
+		<param name="caption">Логин (e-mail)</param>
+		<param name="css_style" val="width: 400px;" />
+	</control>
+	<control type="text" name="name">
+		<param name="caption">Имя</param>
+		<param name="css_style" val="width: 400px;" />
+	</control>
+	<control type="password" name="pword">
+		<param name="caption">Пароль</param>
+		<param name="css_style" val="width: 240px;" />
+		<flag name="confirm" />
+	</control>
+	<control type="list" name="role">
+		<param name="caption">Роль</param>
+		<param name="source" val="const" />
+		<list name="clist">
+			<param name="PL_ROOT">Суперадмин</param>
+			<param name="PL_ADMIN">Администратор</param>
+		</list>
+		<param name="css_style" val="width: 240px;" />
+	</control>
+</form>

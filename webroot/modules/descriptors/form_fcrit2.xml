@@ -1,0 +1,8 @@
+<form>
+	<control type="list" name="fcrit2">
+		<param name="caption">Способ регулирования</param>
+		<param name="preamble">Способ регулирования</param>
+		<param name="preamble_key" val="null" />
+		<param name="source" val="dbproc" />
+	</control>
+</form>

@@ -1,0 +1,6 @@
+<!-- #XPD= -->
+<fieldset>
+	<field dtype="string" dbname="kind" name="kind" forupdate="1" />
+	<field dtype="integer" dbname="mid" name="master" forupdate="1" />
+	<field dtype="integer" dbname="sid" name="slave" forupdate="1" />
+</fieldset>

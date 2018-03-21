@@ -1,0 +1,18 @@
+<form>	
+	<control type="text" name="price">
+		<param name="caption">Цена</param>
+		<param name="css_class">price</param>
+	</control>
+	<control type="check" name="fnew">
+		<param name="caption">Новинка</param>
+	</control>
+	<control type="check" name="frecomend">
+		<param name="caption">Рекомендуем</param>
+	</control>
+	<control type="check" name="fspecial">
+		<param name="caption">Акция</param>
+	</control>
+	<control type="check" name="fshow">
+		<param name="caption">Показывать</param>
+	</control>
+</form>

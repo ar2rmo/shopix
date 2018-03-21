@@ -1,0 +1,16 @@
+<fieldset>
+	<field dtype="integer" dbname="num" name="num" />	
+	
+	<field dtype="string" dbname="code" name="code" />	
+	<field dtype="string" dbname="name" name="name" />
+	<field dtype="string" dbname="sname" name="sname" />
+	<field dtype="string" dbname="codename" name="codename" />
+	<field dtype="string" dbname="format" name="format" />
+	
+	<field dtype="real" dbname="ratio" name="ratio">
+		<param name="format">0,00</param>
+	</field>
+	<field dtype="real" dbname="value" name="value">
+		<param name="format">0 000,--</param>
+	</field>
+</fieldset>

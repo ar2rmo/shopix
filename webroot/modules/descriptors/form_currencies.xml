@@ -1,0 +1,50 @@
+<form>
+	<control type="list" name="curr_base">
+		<param name="caption">Базовая валюта</param>
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="get_currencies" />
+		<param name="oclass" val="currency" />
+		<param name="keyfld">code</param>
+		<param name="valfld">codename</param>
+		<param name="css_style" val="width: 320px;" />
+	</control>
+	<control type="check" name="curr_base_show">
+		<param name="caption">Показывать</param>
+	</control>
+	<control type="list" name="curr_1">
+		<param name="caption">Дополнительная валюта 1</param>
+		<param name="preamble">нет</param>
+		<param name="preamble_key" val="000" />
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="get_currencies" />
+		<param name="oclass" val="currency" />
+		<param name="keyfld">code</param>
+		<param name="valfld">codename</param>
+		<param name="css_style" val="width: 320px;" />
+	</control>
+	<control type="text" name="curr_1_ratio">
+		<param name="caption">Курс дополнительной валюты 1</param>
+		<param name="css_style" val="width: 120px;" />
+	</control>
+	<control type="check" name="curr_1_ratio_r">
+		<param name="caption">Дороже базовой</param>
+	</control>
+	<control type="list" name="curr_2">
+		<param name="caption">Дополнительная валюта 2</param>
+		<param name="preamble">нет</param>
+		<param name="preamble_key" val="000" />
+		<param name="source" val="dbproc" />
+		<param name="proc_name" val="get_currencies" />
+		<param name="oclass" val="currency" />
+		<param name="keyfld">code</param>
+		<param name="valfld">codename</param>
+		<param name="css_style" val="width: 320px;" />
+	</control>
+	<control type="text" name="curr_2_ratio">
+		<param name="caption">Курс дополнительной валюты 2</param>
+		<param name="css_style" val="width: 120px;" />
+	</control>
+	<control type="check" name="curr_2_ratio_r">
+		<param name="caption">Дороже базовой</param>
+	</control>
+</form>

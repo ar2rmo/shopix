@@ -1,0 +1,135 @@
+<fieldset>
+	<field dtype="string" dbname="inf_shopname" name="inf_shopname" forupdate="1" />
+	<field dtype="string" dbname="inf_shopurl" name="inf_shopurl" forupdate="1" />
+	<field dtype="string" dbname="inf_host" name="inf_host" forupdate="1" />
+	<field dtype="string" dbname="inf_keywords" name="inf_keywords" forupdate="1" />
+	<field dtype="string" dbname="inf_description" name="inf_description" forupdate="1" />
+	<field dtype="boolean" dbname="inf_nameintitle" name="inf_nameintitle" forupdate="1" />
+	
+	<field dtype="integer" dbname="img_max_width" name="img_max_width" forupdate="1">
+		<flag name="positive" />
+	</field>
+	<field dtype="integer" dbname="img_max_height" name="img_max_height" forupdate="1">
+		<flag name="positive" />
+	</field>
+	<field dtype="integer" dbname="img_small_width" name="img_small_width" forupdate="1">
+		<flag name="positive" />
+	</field>
+	<field dtype="integer" dbname="img_small_height" name="img_small_height" forupdate="1">
+		<flag name="positive" />
+	</field>
+	<field dtype="integer" dbname="img_middle_width" name="img_middle_width" forupdate="1">
+		<flag name="positive" />
+	</field>
+	<field dtype="integer" dbname="img_middle_height" name="img_middle_height" forupdate="1">
+		<flag name="positive" />
+	</field>
+	<field dtype="integer" dbname="img_small_width_cat" name="img_small_width_cat" forupdate="1">
+		<flag name="positive" />
+	</field>
+	<field dtype="integer" dbname="img_small_height_cat" name="img_small_height_cat" forupdate="1">
+		<flag name="positive" />
+	</field>
+	<field dtype="integer" dbname="img_middle_width_cat" name="img_middle_width_cat" forupdate="1">
+		<flag name="positive" />
+	</field>
+	<field dtype="integer" dbname="img_middle_height_cat" name="img_middle_height_cat" forupdate="1">
+		<flag name="positive" />
+	</field>
+	<field dtype="integer" dbname="img_art_width" name="img_art_width" forupdate="1">
+		<flag name="positive" />
+	</field>
+	<field dtype="integer" dbname="img_art_height" name="img_art_height" forupdate="1">
+		<flag name="positive" />
+	</field>
+	<field dtype="integer" dbname="num_onpage_prod" name="num_onpage_prod" forupdate="1">
+		<flag name="positive" />
+	</field>
+	<field dtype="integer" dbname="num_box_rand" name="num_box_rand" forupdate="1">
+		<flag name="positive" />
+	</field>
+	<field dtype="integer" dbname="num_box_new" name="num_box_new" forupdate="1">
+		<flag name="positive" />
+	</field>
+	<field dtype="integer" dbname="num_box_recomend" name="num_box_recomend" forupdate="1">
+		<flag name="positive" />
+	</field>
+	<field dtype="integer" dbname="num_onpage_news" name="num_onpage_news" forupdate="1">
+		<flag name="positive" />
+	</field>
+	<field dtype="integer" dbname="num_box_news" name="num_box_news" forupdate="1">
+		<flag name="positive" />
+	</field>
+	<field dtype="integer" dbname="num_onpage_articles" name="num_onpage_articles" forupdate="1">
+		<flag name="positive" />
+	</field>
+	<field dtype="integer" dbname="num_box_articles" name="num_box_articles" forupdate="1">
+		<flag name="positive" />
+	</field>
+	<field dtype="integer" dbname="num_onpage_specials" name="num_onpage_specials" forupdate="1">
+		<flag name="positive" />
+	</field>
+	<field dtype="integer" dbname="num_box_specials" name="num_box_specials" forupdate="1">
+		<flag name="positive" />
+	</field>
+	<field dtype="integer" dbname="num_onpage_orders" name="num_onpage_orders" forupdate="1">
+		<flag name="positive" />
+	</field>
+	<!-- #XPD [ -->
+	<field dtype="integer" dbname="num_xpd_rand" name="num_xpd_rand" forupdate="1">
+		<flag name="positive" />
+	</field>
+	<!-- ] #XPD -->
+	
+	<field dtype="string" dbname="name_crit1" name="name_crit1" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="string" dbname="name_crit2" name="name_crit2" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="string" dbname="name_crit3" name="name_crit3" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	
+	<field dtype="string" dbname="name_etab1" name="name_etab1" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="string" dbname="name_etab2" name="name_etab2" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="string" dbname="name_etab3" name="name_etab3" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="string" dbname="name_etab4" name="name_etab4" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="string" dbname="name_etab5" name="name_etab5" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	
+	<field dtype="string" dbname="chk_hash" name="chk_hash" />
+	<field dtype="integer" dbname="chk_state" name="chk_state" />
+	
+	<field dtype="string" dbname="ord_mail" name="ord_mail" forupdate="1">
+		<flag name="valid_email"/>
+	</field>
+	<field dtype="integer" dbname="ord_initstatus" name="ord_initstatus" forupdate="1" />
+	
+	<field dtype="string" dbname="mcurr_code" name="mcurr_code" />
+	<field dtype="string" dbname="mcurr_name" name="mcurr_name" />
+	<field dtype="string" dbname="mcurr_sname" name="mcurr_sname" />
+	<field dtype="string" dbname="mcurr_format" name="mcurr_format" />
+	
+	<field dtype="string" dbname="dcurr_code" name="dcurr_code" />
+	<field dtype="string" dbname="dcurr_name" name="dcurr_name" />
+	<field dtype="string" dbname="dcurr_sname" name="dcurr_sname" />
+	<field dtype="string" dbname="dcurr_format" name="dcurr_format" />
+</fieldset>

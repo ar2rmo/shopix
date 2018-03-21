@@ -1,0 +1,7 @@
+<fieldset>
+	<field dtype="string" dbname="code" name="code" />	
+	<field dtype="string" dbname="name" name="name" />
+	<field dtype="string" dbname="sname" name="sname" />
+	<field dtype="string" dbname="codename" name="codename" />
+	<field dtype="string" dbname="format" name="format" />
+</fieldset>

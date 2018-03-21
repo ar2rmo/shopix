@@ -1,0 +1,20 @@
+<messages>
+	<field name="name">
+		<error spec="blank">Наименование - обязательное поле</error>
+	</field>
+	<field name="mark">
+		<error spec="inval">Наценка должна быть числом</error>
+		<error spec="zero">Наценка должна быть больше нуля</error>
+		<error spec="negative">Наценка должна быть больше нуля</error>
+	</field>
+	<field name="incr">
+		<error spec="inval">Наценка должна быть числом</error>
+		<error spec="zero">Наценка должна быть больше нуля</error>
+		<error spec="negative">Наценка должна быть больше нуля</error>
+	</field>
+	<field name="rate">
+		<error spec="inval">Курс должен быть числом</error>
+		<error spec="zero">Курс должен быть больше нуля</error>
+		<error spec="negative">Курс должен быть больше нуля</error>
+	</field>
+</messages>

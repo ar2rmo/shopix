@@ -1,0 +1,8 @@
+<messages>
+	<field name="curr_1_ratio">
+		<error spec="min">Курс валюты должен быть больше 1</error>
+	</field>
+	<field name="curr_2_ratio">
+		<error spec="min">Курс валюты должен быть больше 1</error>
+	</field>
+</messages>

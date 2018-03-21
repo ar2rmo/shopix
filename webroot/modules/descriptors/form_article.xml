@@ -1,0 +1,67 @@
+<form>
+	<control type="calendar" name="date">
+		<param name="caption">Дата</param>
+	</control>
+	<control type="check" name="fshow">
+		<param name="caption">Показывать</param>
+	</control>
+	<control type="text" name="uri_name">
+		<param name="caption">Адрес страницы (для ЧПУ)</param>
+		<param name="css_style" val="width: 320px;" />
+	</control>
+	<control type="mtext" name="caption">
+		<param name="caption">Заголовок</param>
+		<param name="rows" val="2" />
+		<param name="css_style" val="width: 640px;" />
+	</control>
+	<control type="mtext" name="title">
+		<param name="caption">Заголовок (для title)</param>
+		<param name="rows" val="2" />
+		<param name="css_style" val="width: 640px;" />
+	</control>
+	<control type="mtext" name="keywords">
+		<param name="caption">Ключевые слова (для meta)</param>
+		<param name="rows" val="3" />
+		<param name="css_style" val="width: 640px;" />
+	</control>
+	<control type="mtext" name="description">
+		<param name="caption">Описание (для meta)</param>
+		<param name="rows" val="3" />
+		<param name="css_style" val="width: 640px;" />
+	</control>
+	<control type="text" name="css">
+		<param name="caption">CSS класс в меню</param>
+		<param name="css_style" val="width: 320px;" />
+	</control>
+	<control type="wysiwyg" name="short">
+		<param name="caption">Анонс</param>
+		<param name="css_style" val="width: 640px; height: 120px;" />
+	</control>
+	<control type="wysiwyg" name="full">
+		<param name="caption">Расширенный текст</param>
+		<param name="css_style" val="width: 640px; height: 640px;" />
+		<param name="ckheight" val="1200" />
+	</control>
+	<control type="text" name="href">
+		<param name="caption">Ссылка</param>
+		<param name="css_style" val="width: 640px;" />
+	</control>
+	<control type="text" name="link">
+		<param name="caption">Источник</param>
+		<param name="css_style" val="width: 640px;" />
+	</control>
+	
+	<control type="check" name="mpict_del">
+		<param name="caption">Удалить изображение</param>
+	</control>
+	<control type="file" name="mpict">
+		<param name="caption">Изображение</param>
+		<list name="types">
+			<param val=".jpg" />
+			<param val=".jpeg" />
+			<param val=".png" />
+			<param val=".gif" />
+		</list>
+		<param name="css_class">pict_file</param>
+	</control>
+</form>

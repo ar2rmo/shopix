@@ -1,0 +1,10 @@
+<form>
+	<control type="text" name="code">
+		<param name="caption">Код</param>
+		<param name="css_class">code</param>
+	</control>
+	<control type="text" name="name">
+		<param name="caption">Наименование</param>
+		<param name="css_class">name</param>
+	</control>
+</form>

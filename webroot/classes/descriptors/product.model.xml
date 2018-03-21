@@ -1,0 +1,185 @@
+<fieldset>
+	<field dtype="integer" dbname="pid" name="id" forupdate="1" />
+	<field dtype="integer" dbname="nid" name="cid" forupdate="1" />
+	
+	<field dtype="string" dbname="uri_name" name="uri_name" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+		<param name="charset" val="numlatsp" />
+		<flag name="not_numeric" />
+		<param name="max_chars" val="128" />
+	</field>
+	<field dtype="string" dbname="uri" name="uri" />
+	<field dtype="boolean" dbname="fshow" name="fshow" forupdate="1" />
+	<field dtype="boolean" dbname="visible" name="visible" />
+	
+	<field dtype="string" dbname="name" name="name" forupdate="1">
+		<flag name="not_blank"/>
+		<flag name="not_whitespace"/>
+	</field>
+	<field dtype="string" dbname="fullname" name="fullname" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="string" dbname="title" name="title" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	
+	<field dtype="string" dbname="variant" name="variant" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="boolean" dbname="inherited" name="inherited" />
+	<field dtype="integer" dbname="parent_id" name="parent_id" />
+	
+	<field dtype="string" dbname="keywords" name="keywords" forupdate="1" />
+	<field dtype="string" dbname="description" name="description" forupdate="1" />
+	<field dtype="string" dbname="css" name="css" forupdate="1" />
+	
+	<field dtype="string" dbname="code" name="code" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="string" dbname="barcode" name="barcode" forupdate="1">
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="integer" dbname="brand_id" name="brand_id" forupdate="1">
+		<flag name="null"/>
+	</field>
+	<field dtype="string" dbname="brand_name" name="brand_name">
+		<flag name="null"/>
+	</field>
+	<field dtype="string" dbname="measure" name="measure" forupdate="1" />
+	<field dtype="string" dbname="size" name="size" forupdate="1" />
+	
+	<field dtype="string" dbname="descr_short" name="descr_short" forupdate="1">
+		<flag name="html_inside" />
+	</field>
+	<field dtype="string" dbname="descr_full" name="descr_full" forupdate="1">
+		<flag name="html_inside" />
+	</field>
+	<field dtype="string" dbname="descr_tech" name="descr_tech" forupdate="1">
+		<flag name="html_inside" />
+	</field>
+	
+	<field dtype="string" dbname="extra1" name="extra1" forupdate="1">
+		<flag name="html_inside" />
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="string" dbname="extra2" name="extra2" forupdate="1">
+		<flag name="html_inside" />
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="string" dbname="extra3" name="extra3" forupdate="1">
+		<flag name="html_inside" />
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="string" dbname="extra4" name="extra4" forupdate="1">
+		<flag name="html_inside" />
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	<field dtype="string" dbname="extra5" name="extra5" forupdate="1">
+		<flag name="html_inside" />
+		<flag name="null"/>
+		<flag name="blank_null"/>
+	</field>
+	
+	<field dtype="real" dbname="price" name="price" forupdate="1">
+		<flag name="null"/>
+		<flag name="inv_null"/>
+		<flag name="zero_null"/>
+		<flag name="positive"/>
+		<param name="format">0 000,00</param>
+	</field>
+	<field dtype="real" dbname="oprice" name="oprice" forupdate="1">
+		<flag name="null"/>
+		<flag name="inv_null"/>
+		<flag name="zero_null"/>
+		<flag name="positive"/>
+		<param name="format">0 000,00</param>
+	</field>
+	<field dtype="real" dbname="price_min" name="price_min">
+		<flag name="null"/>
+		<flag name="inv_null"/>
+		<flag name="zero_null"/>
+		<flag name="positive"/>
+		<param name="format">0 000,00</param>
+	</field>
+	<field dtype="real" dbname="price_max" name="price_max">
+		<flag name="null"/>
+		<flag name="inv_null"/>
+		<flag name="zero_null"/>
+		<flag name="positive"/>
+		<param name="format">0 000,00</param>
+	</field>
+	<field dtype="integer" dbname="price_type" name="price_type" forupdate="1">
+		<flag name="null"/>
+	</field>
+	<field dtype="real" dbname="price_salebase" name="price_salebase"/>
+	<field dtype="real" dbname="price_salebase_old" name="price_salebase_old"/>
+	<field dtype="real" dbname="price_salebase_min" name="price_salebase_min"/>
+	<field dtype="real" dbname="price_salebase_max" name="price_salebase_max"/>
+		
+	<field dtype="integer" dbname="avail_id" name="avail_id" forupdate="1">
+		<flag name="null"/>
+	</field>
+	<field dtype="string" dbname="avail_name" name="avail_name">
+		<flag name="null"/>
+	</field>
+	<field dtype="integer" dbname="avail_num" name="avail_num" forupdate="1">
+		<flag name="null"/>
+		<flag name="inv_null"/>
+		<flag name="positive"/>
+	</field>
+	<field dtype="boolean" dbname="fnew" name="fnew" forupdate="1" />
+	<field dtype="boolean" dbname="frecomend" name="frecomend" forupdate="1" />
+	<field dtype="boolean" dbname="fspecial" name="fspecial" forupdate="1" />
+	
+	<field dtype="boolean" dbname="forsale" name="forsale" forupdate="1" />
+	<field dtype="boolean" dbname="sellable" name="sellable" />
+	
+	<field dtype="datetime" dbname="created" name="created">
+		<flag name="null"/>
+		<param name="format" val="d.m.Y H:i:s" /> 
+	</field>
+	<field dtype="datetime" dbname="modified" name="modified">
+		<flag name="null"/>
+		<param name="format" val="d.m.Y H:i:s" /> 
+	</field>
+	<field dtype="datetime" dbname="modified_price" name="modified_price">
+		<flag name="null"/>
+		<param name="format" val="d.m.Y H:i:s" /> 
+	</field>
+	
+	<field dtype="integer" dbname="log_all" name="log_all" />
+	<field dtype="integer" dbname="log_day" name="log_day" />
+	
+	<field dtype="string" dbname="d_name" name="d_name" />
+	<field dtype="string" dbname="d_title" name="d_title" />
+	<field dtype="string" dbname="d_keywords" name="d_keywords" />
+	<field dtype="string" dbname="d_description" name="d_description" />
+	
+	<field dtype="string" dbname="tags" name="tags" forupdate="1" />
+	<field dtype="array" dbname="crits1" name="crits1" forupdate="1" />
+	<field dtype="array" dbname="crits2" name="crits2" forupdate="1" />
+	<field dtype="array" dbname="crits3" name="crits3" forupdate="1" />
+	<field dtype="string" dbname="pict_uri" name="pict_uri" />
+	
+	<field dtype="boolean" name="mpict_del" />
+	<field dtype="fsfile" name="mpict">
+		<flag name="null"/>
+		<list name="types">
+			<param val="image/jpeg" />
+			<param val="image/png" />
+			<param val="image/gif" />
+		</list>
+	</field>
+	
+	<field dtype="array" dbname="specs_inh" name="specs_inh" forupdate="1" />
+</fieldset>

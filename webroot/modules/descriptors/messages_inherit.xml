@@ -1,0 +1,5 @@
+<messages>
+	<field name="variant">
+		<error spec="blank">Наименование модификации - обязательное поле</error>
+	</field>
+</messages>

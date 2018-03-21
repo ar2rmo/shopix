@@ -1,0 +1,230 @@
+
+* { margin: 0; padding: 0; }
+*:focus { outline: none; outline: 0; }
+body { font-size: 14px; font-family: Arial; color: #C5D9EF; background: #355678 url(img/ten-body.png) repeat-x; }
+
+table { border-collapse: collapse; width: 100%; }
+img { border: none; }
+h1 { padding: 1px 0 1px 0; letter-spacing: -1px; color: #CCC; }
+
+a, a:visited { border: none; cursor: pointer; color: #FFF; text-decoration: underline; }
+a:hover { color: #CCC; text-decoration: underline; }
+#clear { clear: both; }
+p { padding: 0 0 15px 0; }
+
+#container { width: 1000px; margin: 0 auto; }
+#logo-ml { margin-top: 10px; text-align: center; margin-left: auto; margin-right: auto;
+	width: 400px; color: #7C95AC; font-size: 18px; }
+	#logo-ml a, #logo-ml a:visited { color: #91B1CE; font-size: 24px; font-weight: bold; text-decoration: underline; }
+	#logo-ml a:hover { color: #FFF; text-decoration: underline; }
+#name-site { color: #7C95AC; font-size: 18px; margin: 20px 0 20px 0; }
+	#name-site a, #name-site a:visited { color: #91B1CE; font-size: 24px; font-weight: bold; text-decoration: none; }
+	#name-site a:hover { color: #FFF; text-decoration: underline; }
+#forma-login { margin-top: 30px; border: 1px solid #3B6085; width: 400px;
+	-moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px;
+	margin-left: auto; margin-right: auto; background: #1F354C; padding: 20px; color: #7C95AC; font-size: 22px; }
+	input.login { border: solid 1px #000; padding: 7px; color: #222; background: #ECECED; width: 100%;
+		font-size: 30px; border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; }
+	input.login:focus { background: #FFF; border-color: #B7C7D3; }
+	.big_button { background: #87b500; border: solid 1px #FFF; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+		border-radius: 5px; padding: 5px 15px 10px 15px; overflow: visible;
+		font-size: 22px; cursor: pointer; height: 40px; color: #fff; margin-left: 2px; }
+	.big_button:focus { background: #79A200; }
+	#forma-login a, #forma-login a:visited { color: #9BABB4; text-decoration: underline; float: right; font-size: 14px; padding-top: 11px; }
+	#forma-login a:hover { color: #FFF; text-decoration: underline; }
+
+#dbox {position: fixed; width: 580px; height: 80px; top: 50%; left: 50%;
+      margin: -50px 0 0 -300px; padding: 20px; text-align: center;
+      background-color: #38699D; border: 5px solid #0E263E;}
+
+a.link, a.link:visited { color: #3D84BA; text-decoration: underline; }
+a.link:hover { color: #263A89; text-decoration: underline; }
+
+a.tovar {text-decoration: underline;}
+a.tovar, .tree a {color: #FFF;font-size: 14px;}
+a.tovar:hover, .tree a:hover {color: #C9DBEE;}
+
+a.add, a.add:visited, input.add { color: #FFF; font-family: Arial; font-size: 12px; padding: 5px 10px 5px 30px;
+	background: url(img/add.png) no-repeat 5px 50% #87B500; border: 1px solid #FFF; text-decoration: none; margin: 10px;}
+a.add:hover, input.add:hover { background: url(img/add.png) no-repeat 5px 50% #759D00; text-decoration: none; }
+
+a.delete, a.delete:visited, input.delete { color: #FFF; font-family: Arial; font-size: 12px; padding: 5px 10px 5px 30px;
+	background: url(img/delete.png) no-repeat 5px 50% #87B500; border: 1px solid #FFF; text-decoration: none; }
+a.delete:hover,  input.delete:hover { background: url(img/delete.png) no-repeat 5px 50% #759D00; text-decoration: none; }
+
+a.edit, a.edit:visited, input.edit { color: #FFF; font-family: Arial; font-size: 12px; padding: 5px 10px 5px 30px;
+	background: url(img/edit.png) no-repeat 5px 50% #87B500; border: 1px solid #FFF; text-decoration: none; }
+a.edit:hover, input.edit:hover { background: url(img/edit.png) no-repeat 5px 50% #759D00; text-decoration: none; }
+
+a.save, a.save:visited, input.save { color: #FFF; font-family: Arial; font-size: 12px; padding: 5px 10px 5px 30px;
+	background: url(img/save.png) no-repeat 5px 50% #87B500; border: 1px solid #FFF; text-decoration: none; }
+a.save:hover, input.save:hover { background: url(img/save.png) no-repeat 5px 50% #759D00; text-decoration: none; }
+
+a.ok, a.ok:visited, input.ok { color: #FFF; font-family: Arial; font-size: 12px; padding: 5px 10px 5px 30px;
+	background: url(img/ico-ok.png) no-repeat 5px 50% #87B500; border: 1px solid #FFF; text-decoration: none; }
+a.ok:hover, input.ok:hover { background: url(img/ico-ok.png) no-repeat 5px 50% #759D00; text-decoration: none; }
+
+a.cancel, a.cancel:visited, input.cancel { color: #FFF; font-family: Arial; font-size: 12px; padding: 5px 10px 5px 30px;
+	background: url(img/delete.png) no-repeat 5px 50% #87B500; border: 1px solid #FFF; text-decoration: none; }
+a.cancel:hover, input.cancel:hover { background: url(img/delete.png) no-repeat 5px 50% #759D00; text-decoration: none; }
+
+a.right, a.right:visited { color: #FFF; font-family: Arial; font-size: 12px; padding: 5px 10px 5px 30px;
+	background: url(img/right.png) no-repeat 5px 50% #87B500; border: 1px solid #FFF; text-decoration: none; }
+a.right:hover { background: url(img/right.png) no-repeat 5px 50% #759D00; text-decoration: none; }
+
+a.left, a.left:visited { color: #FFF; font-family: Arial; font-size: 12px; padding: 5px 10px 5px 30px;
+	background: url(img/left.png) no-repeat 5px 50% #87B500; border: 1px solid #FFF; text-decoration: none; }
+a.left:hover { background: url(img/left.png) no-repeat 5px 50% #759D00; text-decoration: none; }
+
+a.down, a.down:visited { color: #FFF; font-family: Arial; font-size: 12px; padding: 5px 10px 5px 30px;
+	background: url(img/down.png) no-repeat 5px 50% #87B500; border: 1px solid #FFF; text-decoration: none; }
+a.down:hover { background: url(img/down.png) no-repeat 5px 50% #759D00; text-decoration: none; }
+
+a.up, a.up:visited { color: #FFF; font-family: Arial; font-size: 12px; padding: 5px 10px 5px 30px;
+	background: url(img/up.png) no-repeat 5px 50% #87B500; border: 1px solid #FFF; text-decoration: none; }
+a.up:hover { background: url(img/up.png) no-repeat 5px 50% #759D00; text-decoration: none; }
+
+input.add, input.delete, input.edit, input.save, input.ok, input.cancel { cursor: pointer; }
+
+#error { color: #CC0000; font-size: 16px; font-weight: bold; padding: 15px 10px 15px 60px;
+	background: url(img/ico-warning.png) no-repeat 10px 50% #FFFFCC; margin-bottom: 20px; border: 1px solid #000; }
+#info { color: #CC0000; font-size: 16px; font-weight: bold; padding: 15px 10px 15px 60px;
+	background: url(img/ico-info.png) no-repeat 10px 50% #FFFFCC; margin-bottom: 20px; border: 1px solid #000; }
+#ok { color: #CC0000; font-size: 16px; font-weight: bold; padding: 15px 10px 15px 60px;
+	background: url(img/ico-ok.png) no-repeat 10px 50% #FFFFCC; margin-bottom: 20px; border: 1px solid #000; }
+
+
+
+#content { border-right: 1px solid #3B6085; border-left: 1px solid #3B6085; padding: 20px; color: #C9DBEE; font-size: 15px; line-height: 20px; }
+#bottom { margin-bottom: 50px; background: #0E263E; border: 1px solid #3B6085; padding: 10px; color: #6789AB; font-size: 13px; }
+	#bottom a, #bottom a:visited { color: #85A2C0; text-decoration: underline; font-size: 13px; }
+	#bottom a:hover { color: #FFF; text-decoration: underline; }
+
+
+
+
+#level1 { overflow: hidden; background: #0E263E; border: 1px solid #3B6085; }
+#level1 ul { padding-left: 0px; /*offset of tabs relative to browser left edge*/
+	font: bold 14px; list-style-type: none; width: 100%; }
+#level1 li { display: inline; }
+#level1 li a, #level1 li a:visited { float: left; display: block; text-decoration: none;
+	padding: 10px 15px; /*padding inside each tab*/
+	color: #DCEBFA; background: #0E263E; border-right: 1px solid #3B6085; }
+#level1 li a:hover { background: #294460; color: #FFF; text-decoration: none; }
+#level1 li.selected a { background: #29507A; text-decoration: none; }
+
+
+#level2 { overflow: hidden; background: #29507A; border: 1px solid #3B6085; border-top: none; }
+#level2 ul { padding-left: 0px; /*offset of tabs relative to browser left edge*/
+	font: bold 14px; list-style-type: none; width: 100%; }
+#level2 li { display: inline; }
+#level2 li a, #li a:visited { float: left; display: block; text-decoration: none;
+	padding: 7px 20px; /*padding inside each tab*/
+	color: #DCEBFA; background: #29507A; border-right: 1px solid #3B6085; }
+#level2 li a:hover { background: #294460; color: #FFF; text-decoration: none; }
+#level2 li.selected a { background: #38699D; text-decoration: none; }
+
+
+table.tablica1 th { font-size: 14px; background: #1B3D5F; padding: 7px; vertical-align: middle; border: 1px solid #0E263E; }
+table.tablica1 td { padding: 10px; vertical-align: top; font-size: 13px; line-height: 15px; border: 1px solid #0E263E; }
+
+/*single*/
+textarea.tags {	width: 686px;}
+
+textarea.tshortabout {
+	width: 686px;}
+
+textarea.tabout, textarea.tTTS{
+	width: 932px;
+}
+textarea.tabout_sec{
+	width: 828px;
+}
+
+textarea.description {
+	width: 686px;
+}
+input.name{	width: 400px;}
+input.title{
+	width: 400px;
+}
+input.urlname{
+	width: 400px;
+}
+input.css{
+	width: 400px;
+}
+input.price {
+	width: 120px;
+}
+input.oprice {
+	width: 120px;
+}
+input.available {
+	width: 80px;
+}
+input.pict_name {	width: 284px;}
+select.section {	width: 400px;}
+select.category {	width: 300px;
+	height: 180px;}
+input.measure{
+	width: 400px;
+}
+input.size{
+	width: 400px;
+}
+#admin_tree div{	height : 40px;}
+#admin_tree div.control{
+	float: right;
+}
+#admin_tree a.name{
+	margin : 10px 10px;}
+#admin_tree a.name:hover{	color : 	#C9DBEE;
+	text-decoration : none;}
+#admin_tree a.name{
+	margin : 10px 10px;
+}
+#admin_tree .level2 {	font-weight: bold;}
+#admin_tree .level4 {
+	font-style: italic;
+}
+
+.box {
+  display: none; /* по умолчанию прячем все блоки */
+}
+.box.visible {
+  display: block; /* по умолчанию показываем нужный блок */
+}
+
+.section .tabs li {	display: block;
+	background-color: #29507A;
+	color: #DCEBFA;
+	border: 1px solid #0E263E;
+    font-size: 14px;
+    line-height: 15px;
+    padding: 10px;
+    float: left;
+    cursor: pointer;}
+
+.section .tabs li.current {
+	background-color: #38699D;
+}
+
+.brk {	clear: both;}
+
+select.dropcat {width: 500px;}
+select.dropcat  option {width: 540px;}
+select.sdropcat {width: 400px;}
+select.sdropcat  option {width: 440px;}
+
+
+.ih-self{
+	background-color:#882222;
+}
+.ih-parent{
+	background-color:#222288;
+}
+
+#catsel {
+	width: 640px;
+}

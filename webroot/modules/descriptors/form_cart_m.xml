@@ -1,0 +1,6 @@
+<form>	
+	<control type="text" name="qty">
+		<param name="caption">К-во</param>
+		<param name="css_class">input-small-in-cart</param>
+	</control>
+</form>

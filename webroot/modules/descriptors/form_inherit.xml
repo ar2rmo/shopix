@@ -1,0 +1,13 @@
+<form>
+	<control type="text" name="variant">
+		<param name="caption">Название модификации</param>
+		<param name="css_class">name</param>
+	</control>
+	<control type="check" name="inh_price">
+		<param name="caption">Изменить</param>
+	</control>
+	<control type="text" name="price">
+		<param name="caption">Цена</param>
+		<param name="css_class">price</param>
+	</control>
+</form>

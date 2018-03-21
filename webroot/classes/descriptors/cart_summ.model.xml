@@ -1,0 +1,7 @@
+<fieldset>
+	<field dtype="integer" dbname="qty" name="qty" />
+	<field dtype="integer" dbname="dqty" name="dqty" />
+	<field dtype="real" dbname="summ" name="summ">
+		<param name="format">0 000,00</param>
+	</field>
+</fieldset>

@@ -1,0 +1,46 @@
+	<? if($del_conf) { ?>
+	<div id="dbox">
+		<p>Удалить новость <?=$name?>?</p>
+		<form name="item" method="post" action="">
+			<input type="submit" class= "ok" name="delete" value="Да">
+			<input type="hidden" name="artn" value="<?=$artn?>">
+			<a href="?" class= "cancel">Нет</a>
+		</form>
+	</div>
+	<?}?>
+	<table class="tablica1">
+		<tr>
+			<th>Дата</th>
+			<th>Заголовок</th>
+			<th><img src="/admin/templates/img/eye.png" title="Показывать" alt="Показывать"></th>
+			<th>&nbsp;</th>
+		</tr>
+		<? foreach ($articles as $itm) { ?>
+		<tr>
+			<td style="text-align: center;"><?=$itm['date']?></td>
+			<td><a href="/admin/aedit/news/<?=$itm['ID']?>"><?=$itm['caption']?></a></td>
+			<? if ($itm['fshow']) { ?>
+			<td style="text-align: center;"><img src="/admin/templates/img/eye.png" title="Показывать" alt="Показывать"></td>
+			<? } else { ?>
+			<td>&mdash;</td>
+			<? } ?>
+			<td style="text-align: center;">
+				<a href="/admin/aedit/news?delete=<?=$itm['ID']?>" class="delete">Удалить</a>
+			</td>
+		</tr>
+		<? }
+		if ($pages['pages']>1) { ?>
+		<tr>
+			<td colspan="4">
+				Страницы:
+				<? for ($i=1;$i<=$pages['pages'];$i++) {
+					if ($i==$pages['current']) { ?>
+						<span class="current"><?=$i?></span>
+					<? } else { ?>
+						<a href="?p=<?=$i?>"><?=$i?></a>
+					<? }
+				} ?>
+			</td>
+		</tr>
+		<? } ?>
+	</table>

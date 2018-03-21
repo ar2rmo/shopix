@@ -1,0 +1,12 @@
+<fieldset>
+	<field dtype="integer" dbname="pid" name="pid" forupdate="1" />
+	<field dtype="integer" dbname="qty" name="qty" forupdate="1">
+		<flag name="positive"/>
+	</field>
+	<field dtype="real" dbname="price" name="price">
+		<param name="format">0 000,00</param>
+	</field>
+	<field dtype="real" dbname="summ" name="summ">
+		<param name="format">0 000,00</param>
+	</field>
+</fieldset>

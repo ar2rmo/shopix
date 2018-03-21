@@ -1,0 +1,165 @@
+<form>
+	<control type="text" name="inf_shopname">
+		<param name="caption">Название магазина (для Title)</param>
+		<param name="css_style" val="width: 420px;" />
+	</control>
+	<control type="text" name="inf_shopurl">
+		<param name="caption">Адрес сайта магазина (без http:// с www)</param>
+		<param name="css_style" val="width: 420px;" />
+	</control>
+	<control type="mtext" name="inf_keywords">
+		<param name="caption">Ключевые слова для сайта (Keywords)</param>
+		<param name="rows" val="4" />
+		<param name="css_style" val="width: 420px;" />
+	</control>
+	<control type="mtext" name="inf_description">
+		<param name="caption">Описание сайта (Description)</param>
+		<param name="rows" val="4" />
+		<param name="css_style" val="width: 420px;" />
+	</control>
+	<control type="check" name="inf_nameintitle">
+		<param name="caption">Добавлять название магазина к заголовку</param>
+	</control>
+	<control type="text" name="img_max_width">
+		<param name="caption">Максимальная ширина изображения</param>
+		<param name="css_style" val="width: 60px;" />
+	</control>
+	<control type="text" name="img_max_height">
+		<param name="caption">Максимальная высота изображения</param>
+		<param name="css_style" val="width: 60px;" />
+	</control>
+	<control type="text" name="img_small_width">
+		<param name="caption">Ширина маленького изображения</param>
+		<param name="css_style" val="width: 40px;" />
+	</control>
+	<control type="text" name="img_small_height">
+		<param name="caption">Высота маленького изображения</param>
+		<param name="css_style" val="width: 40px;" />
+	</control>
+	<control type="text" name="img_middle_width">
+		<param name="caption">Ширина среднего изображения</param>
+		<param name="css_style" val="width: 40px;" />
+	</control>
+	<control type="text" name="img_middle_height">
+		<param name="caption">Высота среднего изображения</param>
+		<param name="css_style" val="width: 40px;" />
+	</control>
+	<control type="text" name="img_small_width_cat">
+		<param name="caption">Ширина маленького изображения</param>
+		<param name="css_style" val="width: 40px;" />
+	</control>
+	<control type="text" name="img_small_height_cat">
+		<param name="caption">Высота маленького изображения</param>
+		<param name="css_style" val="width: 40px;" />
+	</control>
+	<control type="text" name="img_middle_width_cat">
+		<param name="caption">Ширина среднего изображения</param>
+		<param name="css_style" val="width: 40px;" />
+	</control>
+	<control type="text" name="img_middle_height_cat">
+		<param name="caption">Высота среднего изображения</param>
+		<param name="css_style" val="width: 40px;" />
+	</control>
+	<control type="text" name="img_art_width">
+		<param name="caption">Ширина изображения для статей</param>
+		<param name="css_style" val="width: 40px;" />
+	</control>
+	<control type="text" name="img_art_height">
+		<param name="caption">Высота изображения для статей</param>
+		<param name="css_style" val="width: 40px;" />
+	</control>
+	<control type="text" name="num_onpage_prod">
+		<param name="caption">Товаров на странице</param>
+		<param name="css_style" val="width: 40px;" />
+	</control>
+	<control type="text" name="num_box_rand">
+		<param name="caption">Товаров в блоке «Случайные»</param>
+		<param name="css_style" val="width: 40px;" />
+	</control>
+	<control type="text" name="num_box_new">
+		<param name="caption">Товаров в блоке «Новинки»</param>
+		<param name="css_style" val="width: 40px;" />
+	</control>
+	<control type="text" name="num_box_recomend">
+		<param name="caption">Товаров в блоке «Рекомендуем»</param>
+		<param name="css_style" val="width: 40px;" />
+	</control>
+	<control type="text" name="num_onpage_news">
+		<param name="caption">Новостей на странице</param>
+		<param name="css_style" val="width: 40px;" />
+	</control>
+	<control type="text" name="num_box_news">
+		<param name="caption">Последних новостей</param>
+		<param name="css_style" val="width: 40px;" />
+	</control>
+	<control type="text" name="num_onpage_articles">
+		<param name="caption">Статей на странице</param>
+		<param name="css_style" val="width: 40px;" />
+	</control>
+	<control type="text" name="num_box_articles">
+		<param name="caption">Последних статей</param>
+		<param name="css_style" val="width: 40px;" />
+	</control>
+	<control type="text" name="num_onpage_specials">
+		<param name="caption">Акций на странице</param>
+		<param name="css_style" val="width: 40px;" />
+	</control>
+	<control type="text" name="num_box_specials">
+		<param name="caption">Последних акций</param>
+		<param name="css_style" val="width: 40px;" />
+	</control>
+	<control type="text" name="num_onpage_orders">
+		<param name="caption">Заказов на странице</param>
+		<param name="css_style" val="width: 40px;" />
+	</control>
+	<!-- #XPD [ -->
+	<control type="text" name="num_xpd_rand">
+		<param name="caption">Отображать связанных товаров</param>
+		<param name="css_style" val="width: 40px;" />
+	</control>
+	<!-- ] #XPD -->
+	<control type="text" name="ord_mail">
+		<param name="caption">E-mail для отправки заказов</param>
+		<param name="css_style" val="width: 420px;" />
+	</control>
+	<control type="text" name="ord_initstatus">
+		<param name="caption">Статус нового заказа</param>
+	</control>
+	
+	<control type="check" name="ed_wysiwyg">
+		<param name="caption">Использовать редактор текстов</param>
+	</control>
+	
+	<control type="text" name="name_crit1">
+		<param name="caption">Название критерия 1</param>
+		<param name="css_style" val="width: 420px;" />
+	</control>
+	<control type="text" name="name_crit2">
+		<param name="caption">Название критерия 2</param>
+		<param name="css_style" val="width: 420px;" />
+	</control>
+	<control type="text" name="name_crit3">
+		<param name="caption">Название критерия 3</param>
+		<param name="css_style" val="width: 420px;" />
+	</control>
+	<control type="text" name="name_etab1">
+		<param name="caption">Название доп. вкладки 1</param>
+		<param name="css_style" val="width: 420px;" />
+	</control>
+	<control type="text" name="name_etab2">
+		<param name="caption">Название доп. вкладки 2</param>
+		<param name="css_style" val="width: 420px;" />
+	</control>
+	<control type="text" name="name_etab3">
+		<param name="caption">Название доп. вкладки 3</param>
+		<param name="css_style" val="width: 420px;" />
+	</control>
+	<control type="text" name="name_etab4">
+		<param name="caption">Название доп. вкладки 4</param>
+		<param name="css_style" val="width: 420px;" />
+	</control>
+	<control type="text" name="name_etab5">
+		<param name="caption">Название доп. вкладки 5</param>
+		<param name="css_style" val="width: 420px;" />
+	</control>
+</form>
