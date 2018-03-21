@@ -13,3 +13,5 @@
 !/webroot/templates/res/adm/
 !/webroot/templates/res/scripts/
 /webroot/templates/res/scripts/ckeditor/
+/sqlscripts/*
+!/sqlscripts/*.sql
